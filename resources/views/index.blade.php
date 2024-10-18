@@ -23,7 +23,7 @@
                         <div class="grid gap-6 lg:grid-cols-2 lg:gap-8">
                             {{ __('title') }}
                         </div>
-                        <form id="form__lead" action="{{ route('send.mail') }}" method="POST">
+                        <form id="form__lead" action="{{ route('send-email') }}" method="POST">
                             @csrf
                             <label for="name">Name:</label>
                             <input type="name" id="name" name="name" class="text-black" required>
