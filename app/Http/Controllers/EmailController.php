@@ -4,27 +4,20 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
-use App\Mail\CustomEmail;
+use Illuminate\Support\Facades\Log;
+use App\Mail\LeadGenerated;
 
 class EmailController extends Controller
 {
     public function sendEmail(Request $request)
     {
-        $request->validate([
-            'email' => 'required|email',
-            'message' => 'required',
-        ]);
-    
-        $details = [
-            'email' => $request->email,
-            'message' => $request->message,
-        ];
-    
-        Mail::send('email.notification', ['details' => $details], function($message) use ($details) {
-            $message->to($details['email'])
-                    ->subject('Notificación');
-        });
-    
-        return back()->with('success', 'Email enviado correctamente.');
+        $email = $request->input('email');
+        $name = $request->input('name');
+        $message = $request->input('message');
+
+        Mail::to($request->user())
+            ->send(new LeadGenerated($email, $name, $message));
+
+        return response()->json(['success' => 'true']);
     }
 }

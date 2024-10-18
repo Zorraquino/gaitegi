@@ -8,7 +8,7 @@
 
         <!-- Styles / Scripts -->
         @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
-            @vite(['resources/css/app.css', 'resources/js/app.js'])
+            @vite(['resources/css/app.css'])
         @endif
     </head>
     <body class="font-sans antialiased dark:bg-black dark:text-white/50">
@@ -23,10 +23,12 @@
                         <div class="grid gap-6 lg:grid-cols-2 lg:gap-8">
                             {{ __('title') }}
                         </div>
-                        <form action="{{ route('send.email') }}" method="POST">
+                        <form id="form__lead" action="/send-mail" method="POST">
                             @csrf
+                            <label for="name">Name:</label>
+                            <input type="name" id="name" name="name" class="text-black" required>
                             <label for="email">Email:</label>
-                            <input type="email" id="email" name="email" required>
+                            <input type="email" id="email" name="email" class="text-black" required>
                             <label for="message">Mensaje:</label>
                             <textarea id="message" name="message" class="text-black" required></textarea>
                             <button type="submit">Enviar</button>
@@ -40,5 +42,9 @@
                 </div>
             </div>
         </div>
+
+       @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
+            @vite(['resources/js/app.js'])
+        @endif 
     </body>
 </html>

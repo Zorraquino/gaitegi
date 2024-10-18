@@ -5,6 +5,7 @@
     <title>Nuevo Mensaje</title>
 </head>
 <body>
-    <p>{{ $details['message'] }}</p>
+    <p>{{ $who }}</p>
+    <p>{{ $messages }}</p>
 </body>
 </html>

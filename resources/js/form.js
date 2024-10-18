@@ -1,0 +1,29 @@
+document.addEventListener('DOMContentLoaded', function () {
+    const form = document.getElementById('form__lead');
+    
+    form.addEventListener('submit', function (event) {
+        event.preventDefault();
+        
+        const formData = new FormData(form);
+        
+        fetch('/send-email', {
+            method: 'POST',
+            headers: {
+                'X-CSRF-TOKEN': document.querySelector('input[name="_token"]').value,
+            },
+            body: formData
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                alert('Email sent successfully!');
+            } else {
+                alert('Failed to send email.');
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            alert('An error occurred.');
+        });
+    });
+});
