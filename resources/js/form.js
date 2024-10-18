@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     const form = document.getElementById('form__lead');
-    
+    console.log('test');
     form.addEventListener('submit', function (event) {
         event.preventDefault();
         const actionURL = form.getAttribute('action');
