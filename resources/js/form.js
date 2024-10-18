@@ -3,10 +3,10 @@ document.addEventListener('DOMContentLoaded', function () {
     
     form.addEventListener('submit', function (event) {
         event.preventDefault();
-        
+        const actionURL = form.getAttribute('action');
         const formData = new FormData(form);
         
-        fetch('/send-email', {
+        fetch(actionURL, {
             method: 'POST',
             headers: {
                 'X-CSRF-TOKEN': document.querySelector('input[name="_token"]').value,
