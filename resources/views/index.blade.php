@@ -23,17 +23,23 @@
                         <div class="grid gap-6 lg:grid-cols-2 lg:gap-8">
                             {{ __('title') }}
                         </div>
-                        <form id="form__lead" action="{{ route('send.email') }}" method="POST">
+                        <form id="form__lead" action="{{ route('send.email') }}" method="POST" class="bg-white p-6 rounded-lg shadow-md">
                             @csrf
-                            <label for="name">Name:</label>
-                            <input type="name" id="name" name="name" class="text-black" required>
-                            <label for="email">Email:</label>
-                            <input type="email" id="email" name="email" class="text-black" required>
-                            <label for="message">Mensaje:</label>
-                            <textarea id="message" name="message" class="text-black" required></textarea>
-                            <button type="submit">Enviar</button>
+                            <div class="mb-4">
+                                <label for="name" class="block text-gray-700 font-bold mb-2">Name:</label>
+                                <input type="text" id="name" name="name" class="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                            </div>
+                            <div class="mb-4">
+                                <label for="email" class="block text-gray-700 font-bold mb-2">Email:</label>
+                                <input type="email" id="email" name="email" class="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                            </div>
+                            <div class="mb-4">
+                                <label for="message" class="block text-gray-700 font-bold mb-2">Mensaje:</label>
+                                <textarea id="message" name="message" class="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required></textarea>
+                            </div>
+                            <button type="submit" class="w-full bg-blue-500 text-white font-bold py-2 px-4 rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500">Enviar</button>
                         </form>
-                        <button type="button" data-cc="show-preferencesModal">Manage cookie preferences</button>
+                        <button type="button" data-cc="show-preferencesModal" class="mt-4 w-full bg-gray-500 text-white font-bold py-2 px-4 rounded-lg hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-gray-500">Manage cookie preferences</button>
                     </main>
 
                     <footer class="py-16 text-center text-sm text-black dark:text-white/70">
