@@ -1,7 +1,13 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\App;
 use App\Http\Controllers\EmailController;
+
+Route::get('/', function () {
+    App::setLocale('es');
+    return view('index');
+})->name('index');
 
 Route::get('/{locale}', function (string $locale) {
     if (! in_array($locale, ['en', 'es'])) {
@@ -11,6 +17,6 @@ Route::get('/{locale}', function (string $locale) {
     App::setLocale($locale);
 
     return view('index');
-})->name('index');
+});
 
 Route::post('/send-email', [EmailController::class, 'sendEmail'])->name('send.email');
