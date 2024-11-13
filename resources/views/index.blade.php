@@ -29,6 +29,26 @@
 
             <div class="pt-16">
                 <div class="text-center text-5xl">{{ __('title') }}</div>
+                <form id="formulario--contacto" action="/send-email" method="POST" class="mt-8 space-y-4">
+                    @csrf
+                    <div>
+                        <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+                        <input type="text" name="name" id="name" value="John Doe" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm">
+                    </div>
+                    <div>
+                        <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                        <input type="email" name="email" id="email" value="johndoe@example.com" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm">
+                    </div>
+                    <div>
+                        <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+                        <textarea name="message" id="message" rows="4" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm">Hello, this is a test message.</textarea>
+                    </div>
+                    <div>
+                        <button type="submit" class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700">
+                            Send Email
+                        </button>
+                    </div>
+                </form>
             </div>
         </main>
 

@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const form = document.getElementById('form__lead');
-    console.log('test2');
+    const form = document.getElementById('formulario--contacto');
+
     form.addEventListener('submit', function (event) {
         event.preventDefault();
         const actionURL = form.getAttribute('action');
@@ -23,7 +23,6 @@ document.addEventListener('DOMContentLoaded', function () {
         })
         .catch(error => {
             console.error('Error:', error);
-            alert('An error occurred.');
         });
     });
 });

@@ -58,3 +58,5 @@ CookieConsent.run({
         }
     }
 });
+
+window.CookieConsent = CookieConsent;

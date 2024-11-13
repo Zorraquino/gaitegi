@@ -1,5 +1,4 @@
 <?php
-// app/Http/Controllers/EmailController.php
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
@@ -11,13 +10,28 @@ class EmailController extends Controller
 {
     public function sendEmail(Request $request)
     {
-        $email = $request->input('email');
-        $name = $request->input('name');
-        $message = $request->input('message');
+        try {
+            // Validate input
+            $validated = $request->validate([
+                'email' => 'required|email',
+                'name' => 'required|string|max:255',
+                'message' => 'required|string'
+            ]);
 
-        Mail::to($request->user())
-            ->send(new LeadGenerated($email, $name, $message));
+            // Send email to the provided address instead of authenticated user
+            Mail::to($validated['email'])
+                ->send(new LeadGenerated(
+                    $validated['email'],
+                    $validated['name'],
+                    $validated['message']
+                ));
 
-        return response()->json(['success' => 'true']);
+            Log::info('Email sent successfully to: ' . $validated['email']);
+            return response()->json(['success' => true]);
+
+        } catch (\Exception $e) {
+            Log::error('Email error: ' . $e->getMessage());
+            return response()->json(['error' => $e->getMessage()], 500);
+        }
     }
 }
