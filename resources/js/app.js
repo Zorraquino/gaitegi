@@ -8,3 +8,6 @@ import './analytics.js';
 
 /* FORM HANDLING */
 import './form.js';
+
+/* VIEW TRANSITION FOR NAVIGATION */
+import './navigation.js';

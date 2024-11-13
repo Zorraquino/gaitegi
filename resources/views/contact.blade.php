@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="view-transition" content="same-origin">
 
-        <title>Gaitegi - {{__('home')}}</title>
+        <title>Gaitegi - {{__('contact')}}</title>
 
         @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
             @vite(['resources/css/app.css'])
@@ -18,7 +18,7 @@
 
         <main class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8" style="view-transition-name: main-content">
 
-            <h1>{{__('home')}} Transitioned content</h1>
+            <h1>{{__('contact')}} Transitioned content</h1>
             
         </main>
 

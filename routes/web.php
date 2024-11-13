@@ -3,20 +3,10 @@
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\App;
 use App\Http\Controllers\EmailController;
+use App\Http\Controllers\PageController;
 
-Route::get('/', function () {
-    App::setLocale('es');
-    return view('index');
-})->name('index');
-
-Route::get('/{locale}', function (string $locale) {
-    if (! in_array($locale, ['en', 'es'])) {
-        return response()->view('404', [], 404);
-    }
-
-    App::setLocale($locale);
-
-    return view('index');
-});
+Route::get('/{locale?}/{slug?}', [PageController::class, 'show'])
+    ->where(['locale' => 'eu|es'])
+    ->name('page.show');
 
 Route::post('/send-email', [EmailController::class, 'sendEmail'])->name('send.email');
