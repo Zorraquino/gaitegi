@@ -1,16 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="view-transition" content="same-origin">
-
-        <title>Gaitegi - {{__('home')}}</title>
-
-        @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
-            @vite(['resources/css/app.css'])
-        @endif
-
+        <x-head>{{__('home')}}</x-head>
     </head>
     <body class="font-sans antialiased relative min-h-screen flex flex-col items-center selection:bg-[#FF2D20] selection:text-white">
 
@@ -24,8 +15,5 @@
 
         <x-footer></x-footer>
 
-        @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
-            @vite(['resources/js/app.js'])
-        @endif
     </body>
 </html>
