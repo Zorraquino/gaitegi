@@ -1,5 +1,13 @@
 {
     "home": "Hasiera",
     "contact": "Harremanetan",
-    "contact_slug": "harremanetan"
+    "contact_slug": "harremanetan",
+    "naves": "Naves",
+    "naves_slug": "naves",
+    "oficinas": "Oficinas",
+    "oficinas_slug": "oficinas",
+    "modulos": "Módulos",
+    "modulos_slug": "modulos",
+    "localizacion": "Localización",
+    "localizacion_slug": "localizacion"
 }

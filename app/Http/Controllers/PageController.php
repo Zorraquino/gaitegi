@@ -10,14 +10,22 @@ class PageController extends Controller
 {
     private $slugMaps = [
         'es' => [
-            '' => 'index',
-            'inicio' => 'index',
-            'contacto' => 'contact'
+            '' => 'inicio',
+            'inicio' => 'inicio',
+            'contacto' => 'contacto',
+            'naves' => 'naves',
+            'oficinas' => 'oficinas',
+            'modulos' => 'modulos',
+            'localizacion' => 'localizacion'
         ],
         'eu' => [
-            '' => 'index',
-            'hasiera' => 'index',
-            'harremanetan' => 'contact'
+            '' => 'inicio',
+            'hasiera' => 'inicio',
+            'harremanetan' => 'contacto',
+            'naves' => 'naves',
+            'oficinas' => 'oficinas',
+            'modulos' => 'modulos',
+            'localizacion' => 'localizacion'
         ]
     ];
 
@@ -35,7 +43,7 @@ class PageController extends Controller
         }
 
         if (!$slug) {
-            return view('index', [
+            return view('inicio', [
                 'locale' => $locale,
                 'slug' => ''
             ]);

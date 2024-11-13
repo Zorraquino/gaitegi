@@ -1,5 +1,29 @@
 @import 'vanilla-cookieconsent/dist/cookieconsent.css';
 
+@font-face {
+    font-family: 'FunnelDisplay';
+    font-weight: 400;
+    src: url(@/fonts/FunnelDisplay-Regular.eot);
+    src: url(@/fonts/FunnelDisplay-Regular.eot?#iefix) format('embedded-opentype'),
+         url(@/fonts/FunnelDisplay-Regular.otf) format('otf'),
+         url(@/fonts/FunnelDisplay-Regular.svg#FunnelDisplay-Regular) format('svg'),
+         url(@/fonts/FunnelDisplay-Regular.ttf) format('truetype'),
+         url(@/fonts/FunnelDisplay-Regular.woff) format('woff'),
+         url(@/fonts/FunnelDisplay-Regular.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'FunnelDisplay';
+    font-weight: 700;
+    src: url(@/fonts/FunnelDisplay-Bold.eot);
+    src: url(@/fonts/FunnelDisplay-Bold.eot?#iefix) format('embedded-opentype'),
+         url(@/fonts/FunnelDisplay-Bold.otf) format('otf'),
+         url(@/fonts/FunnelDisplay-Bold.svg#FunnelDisplay-Medium) format('svg'),
+         url(@/fonts/FunnelDisplay-Bold.ttf) format('truetype'),
+         url(@/fonts/FunnelDisplay-Bold.woff) format('woff'),
+         url(@/fonts/FunnelDisplay-Bold.woff2) format('woff2');
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

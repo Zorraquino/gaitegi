@@ -1,8 +1,56 @@
 {
   "resources/css/app.css": {
-    "file": "assets/app-3sJ4Kba7.css",
+    "file": "assets/app-DmA3ho9Q.css",
     "src": "resources/css/app.css",
     "isEntry": true
+  },
+  "resources/fonts/FunnelDisplay-Bold.eot": {
+    "file": "assets/FunnelDisplay-Bold-B-DQRKhw.eot",
+    "src": "resources/fonts/FunnelDisplay-Bold.eot"
+  },
+  "resources/fonts/FunnelDisplay-Bold.otf": {
+    "file": "assets/FunnelDisplay-Bold-Bih5m9CU.otf",
+    "src": "resources/fonts/FunnelDisplay-Bold.otf"
+  },
+  "resources/fonts/FunnelDisplay-Bold.svg": {
+    "file": "assets/FunnelDisplay-Bold-BX19U7_H.svg",
+    "src": "resources/fonts/FunnelDisplay-Bold.svg"
+  },
+  "resources/fonts/FunnelDisplay-Bold.ttf": {
+    "file": "assets/FunnelDisplay-Bold-DTLoSGVa.ttf",
+    "src": "resources/fonts/FunnelDisplay-Bold.ttf"
+  },
+  "resources/fonts/FunnelDisplay-Bold.woff": {
+    "file": "assets/FunnelDisplay-Bold-CrNPfOn6.woff",
+    "src": "resources/fonts/FunnelDisplay-Bold.woff"
+  },
+  "resources/fonts/FunnelDisplay-Bold.woff2": {
+    "file": "assets/FunnelDisplay-Bold-HDG5AGF_.woff2",
+    "src": "resources/fonts/FunnelDisplay-Bold.woff2"
+  },
+  "resources/fonts/FunnelDisplay-Regular.eot": {
+    "file": "assets/FunnelDisplay-Regular-yEHQTcgc.eot",
+    "src": "resources/fonts/FunnelDisplay-Regular.eot"
+  },
+  "resources/fonts/FunnelDisplay-Regular.otf": {
+    "file": "assets/FunnelDisplay-Regular-dJ3I-lOg.otf",
+    "src": "resources/fonts/FunnelDisplay-Regular.otf"
+  },
+  "resources/fonts/FunnelDisplay-Regular.svg": {
+    "file": "assets/FunnelDisplay-Regular-oSANEc3s.svg",
+    "src": "resources/fonts/FunnelDisplay-Regular.svg"
+  },
+  "resources/fonts/FunnelDisplay-Regular.ttf": {
+    "file": "assets/FunnelDisplay-Regular-BdOCpaMi.ttf",
+    "src": "resources/fonts/FunnelDisplay-Regular.ttf"
+  },
+  "resources/fonts/FunnelDisplay-Regular.woff": {
+    "file": "assets/FunnelDisplay-Regular-C_TlJgEC.woff",
+    "src": "resources/fonts/FunnelDisplay-Regular.woff"
+  },
+  "resources/fonts/FunnelDisplay-Regular.woff2": {
+    "file": "assets/FunnelDisplay-Regular-DMkAPvo1.woff2",
+    "src": "resources/fonts/FunnelDisplay-Regular.woff2"
   },
   "resources/js/app.js": {
     "file": "assets/app-Bc4Lhann.js",
