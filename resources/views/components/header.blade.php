@@ -2,5 +2,6 @@
     <div class="logo">
         <img src="{{ asset('images/logo.png') }}" alt="Logo" class="h-8 w-auto">
     </div>
-    <x-navigation></x-navigation>
 </header>
+
+<x-navigation></x-navigation>

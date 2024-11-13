@@ -3,7 +3,7 @@
     <head>
         <x-head>{{__('home')}}</x-head>
     </head>
-    <body class="font-sans antialiased relative min-h-screen flex flex-col items-center selection:bg-[#FF2D20] selection:text-white">
+    <body class="font-sans antialiased relative h-screen flex flex-col items-center selection:bg-[#FF2D20] selection:text-white">
 
         <x-header></x-header>
 
