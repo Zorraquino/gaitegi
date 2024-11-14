@@ -1,13 +1,28 @@
 {
-    "home": "Inicio",
-    "contact": "Contacto",
-    "contact_slug": "contacto",
-    "naves": "Naves",
-    "naves_slug": "naves",
-    "oficinas": "Oficinas",
-    "oficinas_slug": "oficinas",
-    "modulos": "Módulos",
-    "modulos_slug": "modulos",
-    "localizacion": "Localización",
-    "localizacion_slug": "localizacion"
+    "navigation": [
+        {
+            "label": "Inicio",
+            "slug": ""
+        },
+        {
+            "label": "Contacto",
+            "slug": "contacto"
+        },
+        {
+            "label": "Naves",
+            "slug": "naves"
+        },
+        {
+            "label": "Oficinas",
+            "slug": "oficinas"
+        },
+        {
+            "label": "Módulos",
+            "slug": "modulos"
+        },
+        {
+            "label": "Localización",
+            "slug": "localizacion"
+        }
+    ]
 }

@@ -3,7 +3,7 @@
     <head>
         <x-head>{{__('contact')}}</x-head>
     </head>
-    <body class="relative min-h-screen flex flex-col items-center selection:bg-[#FF2D20] selection:text-white">
+    <body class="relative h-screen flex flex-col items-center selection:bg-[#FF2D20] selection:text-white">
 
         <x-header></x-header>
 
