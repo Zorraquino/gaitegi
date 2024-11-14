@@ -32,31 +32,3 @@
 @view-transition {
     navigation: auto;
 }
-
-:root::view-transition-old {
-    animation: none;
-}
-
-header {
-    view-transition-name: header;
-}
-::view-transition-old(header) {
-    animation: none;
-}
-
-::view-transition-new(header) {
-    animation: none;
-}
-
-img {
-    view-transition-name: image;
-}
-::view-transition-old(img),
-::view-transition-new(img) {
-    transition: opacity 0.5s ease-in-out;
-    opacity: 0;
-}
-
-::view-transition-new(img) {
-    opacity: 1;
-}

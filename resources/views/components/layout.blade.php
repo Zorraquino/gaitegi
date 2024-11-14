@@ -7,7 +7,7 @@
 
         <x-header></x-header>
 
-        <main class="w-full grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8" style="view-transition-name: main-content">
+        <main class="w-full grow">
             {{$slot}}
         </main>
 
