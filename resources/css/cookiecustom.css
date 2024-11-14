@@ -1,0 +1,7 @@
+#cc-main .cm {
+    @apply bottom-[112px] rounded-none border border-solid border-black;
+}
+
+#cc-main .cm__btn, #cc-main .pm__btn {
+    @apply bg-transparent border border-solid border-black text-black rounded-none;
+}

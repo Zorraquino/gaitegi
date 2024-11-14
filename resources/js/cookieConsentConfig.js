@@ -5,7 +5,6 @@ import * as CookieConsent from 'vanilla-cookieconsent';
  * https://cookieconsent.orestbida.com/reference/configuration-reference.html
  */
 CookieConsent.run({
-
     categories: {
         necessary: {
             enabled: true,  // this category is enabled by default
@@ -13,7 +12,20 @@ CookieConsent.run({
         },
         analytics: {}
     },
-
+    guiOptions: {
+        consentModal: {
+            layout: 'box wide',
+            position: 'bottom right',
+            flipButtons: false,
+            equalWeightButtons: true
+        },
+        preferencesModal: {
+            layout: 'box',
+            // position: 'left right',
+            flipButtons: false,
+            equalWeightButtons: true
+        }
+    },
     language: {
         default: 'en',
         translations: {

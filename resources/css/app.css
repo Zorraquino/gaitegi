@@ -1,4 +1,5 @@
 @import 'vanilla-cookieconsent/dist/cookieconsent.css';
+@import 'cookiecustom.css';
 
 @font-face {
     font-family: 'FunnelDisplay';

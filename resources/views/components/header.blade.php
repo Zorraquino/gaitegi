@@ -15,5 +15,3 @@
     </div>
 
 </header>
-
-<x-navigation></x-navigation>
