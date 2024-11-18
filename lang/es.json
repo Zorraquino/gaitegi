@@ -1,11 +1,7 @@
 {
     "navigation": [
         {
-            "label": "Inicio",
-            "slug": ""
-        },
-        {
-            "label": "Naves",
+            "label": "Naves industriales",
             "slug": "naves"
         },
         {

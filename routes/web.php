@@ -3,9 +3,9 @@
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\App;
 use App\Http\Controllers\EmailController;
-use App\Http\Controllers\PageController;
+use App\Livewire\ShowPage;
 
-Route::get('/{locale?}/{slug?}', [PageController::class, 'show'])
+Route::get('/{locale?}/{slug?}', ShowPage::class)
     ->where(['locale' => 'eu|es'])
     ->name('page.show');
 

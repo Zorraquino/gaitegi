@@ -33,6 +33,10 @@ export default {
 			'caption-m': ['0.75rem', { lineHeight: '1.375rem', fontWeight: '400' }],
 		},
         extend: {
+			colors: {
+				'gaitegi-originals-black': '#242021',
+				'gaitegi-originals-white': '#FDFDFD',
+			},
             fontFamily: {
                 funnel: ['FunnelDisplay', ...defaultTheme.fontFamily.sans],
             },
