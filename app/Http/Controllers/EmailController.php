@@ -5,20 +5,26 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Log;
 use App\Mail\LeadGenerated;
+use Illuminate\Support\Facades\Validator;
 
 class EmailController extends Controller
 {
-    public function sendEmail(Request $request)
+    public function sendEmail(array $data)
     {
         try {
-            // Validate input
-            $validated = $request->validate([
+
+            $validator = Validator::make($data, [
                 'email' => 'required|email',
                 'name' => 'required|string|max:255',
                 'message' => 'required|string'
             ]);
 
-            // Send email to the provided address instead of authenticated user
+            if ($validator->fails()) {
+                throw new \Exception('Validation failed: ' . $validator->errors()->first());
+            }
+
+            $validated = $validator->validated();
+
             Mail::to($validated['email'])
                 ->send(new LeadGenerated(
                     $validated['email'],
@@ -27,11 +33,11 @@ class EmailController extends Controller
                 ));
 
             Log::info('Email sent successfully to: ' . $validated['email']);
-            return response()->json(['success' => true]);
+            return ['success' => true];
 
         } catch (\Exception $e) {
             Log::error('Email error: ' . $e->getMessage());
-            return response()->json(['error' => $e->getMessage()], 500);
+            throw $e;
         }
     }
 }

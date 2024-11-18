@@ -8,5 +8,3 @@ use App\Livewire\ShowPage;
 Route::get('/{locale?}/{slug?}', ShowPage::class)
     ->where(['locale' => 'eu|es'])
     ->name('page.show');
-
-Route::post('/send-email', [EmailController::class, 'sendEmail'])->name('send.email');
