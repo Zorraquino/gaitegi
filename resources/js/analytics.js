@@ -1,7 +1,8 @@
 import Analytics from 'analytics'
 import googleTagManager from '@analytics/google-tag-manager'
 
-if(CookieConsent.acceptedCategory('analytics')){
+export function initAnalytics() {
+  if(CookieConsent.acceptedCategory('analytics')){
     console.log('Cookies Analíticas aceptadas');
     const analytics = Analytics({
         app: 'Gaitegi',
@@ -13,6 +14,7 @@ if(CookieConsent.acceptedCategory('analytics')){
     })
     
     analytics.page()
-} else {
-    console.log('Cookies Analíticas no aceptadas');
+  } else {
+      console.log('Cookies Analíticas no aceptadas');
+  }
 }

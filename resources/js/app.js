@@ -1,13 +1,10 @@
-import './bootstrap';
-
 /* COOKIE CONSENT */
-import './cookieConsentConfig.js';
+import * as cookieconsent from './cookieConsentConfig.js';
 
 /* ANALYTICS */
-import './analytics.js';
+import * as analytics from './analytics.js';
 
-/* FORM HANDLING */
-import './form.js';
-
-/* VIEW TRANSITION FOR NAVIGATION */
-import './navigation.js';
+document.addEventListener('livewire:navigated', () => { 
+    cookieconsent.initCookieConsent();
+    analytics.initAnalytics();
+})

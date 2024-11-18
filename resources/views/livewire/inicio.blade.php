@@ -8,7 +8,6 @@
             <p class="pb-8">Magnificas Naves preparadas para uso como centro logístico y distribución capilar, al localizarse en una privilegiada situación y disponer de amplios espacios de maniobra interior privados.</p>
             <p class="pb-8">Pabellones ubicados en el término municipal de Galdakao, Vizcaya a 8 Km de Bilbao y situadas en un nudo estratégico de comunicaciones al estar a menos de 900 m del enlace de autopistas A-8 (Bilbao - Behobia), AP-68 (Vitoria, Burgos, Madrid) y N-634.</p>
             <p>Naves con grandes posibilidades comerciales. Situadas en primera línea de carretera. Disponen de amplios escaparates a unos metros de la futura parada de metro de Bengoetxe.</p>
-
         </div>
     </div>
     <div class="col-span-12 tablet:col-span-6 divide-y divide-black">

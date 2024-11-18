@@ -1,7 +1,11 @@
 #cc-main .cm {
-    @apply bottom-[112px] rounded-none border border-solid border-black;
+    @apply bottom-[112px] rounded-none border border-solid border-gaitegi-originals-black;
 }
 
-#cc-main .cm__btn, #cc-main .pm__btn {
-    @apply bg-transparent border border-solid border-black text-black rounded-none;
+#cc-main .cm__btn, #cc-main .pm__btn, .cm__btn--secondary {
+    @apply bg-transparent border border-solid border-gaitegi-originals-black text-gaitegi-originals-black rounded-none;
+}
+
+#cc-main .cm__btn--secondary:hover, #cc-main .pm__btn--secondary:hover {
+    @apply bg-gaitegi-originals-black text-gaitegi-originals-white border-gaitegi-originals-black;
 }
