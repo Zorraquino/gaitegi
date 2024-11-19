@@ -1,19 +1,33 @@
 <div class="h-full grid grid-cols-12">
     <div class="col-span-12 tablet:col-span-6 flex flex-col divide-y divide-gaitegi-originals-black border-r-[0.5px] border-solid border-gaitegi-originals-black">
         <div id="title" class="p-8">
-            <h1 class="font-funnel text-title-xl font-bold">Alquiler de naves industriales</h1>
-            <span class="text-body-l">Desde 2.000 m² a 6.000 m² de planta, con oficinas.</span>
+            <h1 class="font-funnel text-title-xl font-bold">{{ __('home_title') }}</h1>
+            <span class="text-body-l">{{ __('home_subtitle') }}</span>
+            <div class="flex justify-start gap-8 pt-8">
+                <a wire:navigate.hover href="/{{app()->getLocale()}}/{{__('naves_route')}}" 
+                   class="font-funnel text-body-m text-current text-center flex items-center justify-center py-2 px-8 border border-solid border-gaitegi-originals-black hover:bg-gaitegi-originals-black hover:text-gaitegi-originals-white transition-all">
+                    {{__('naves')}}
+                </a>
+                <a wire:navigate.hover href="/{{app()->getLocale()}}/{{__('oficinas_route')}}" 
+                   class="font-funnel text-body-m text-current text-center flex items-center justify-center py-2 px-8 border border-solid border-gaitegi-originals-black hover:bg-gaitegi-originals-black hover:text-gaitegi-originals-white transition-all">
+                    {{__('oficinas')}}
+                </a>
+                <a wire:navigate.hover href="/{{app()->getLocale()}}/{{__('modulos_route')}}" 
+                   class="font-funnel text-body-m text-current text-center flex items-center justify-center py-2 px-8 border border-solid border-gaitegi-originals-black hover:bg-gaitegi-originals-black hover:text-gaitegi-originals-white transition-all">
+                    {{__('modulos')}}
+                </a>
+            </div>
         </div>
         <div id="information" class="grow p-8">
-            <p class="pb-8">Magnificas Naves preparadas para uso como centro logístico y distribución capilar, al localizarse en una privilegiada situación y disponer de amplios espacios de maniobra interior privados.</p>
-            <p class="pb-8">Pabellones ubicados en el término municipal de Galdakao, Vizcaya a 8 Km de Bilbao y situadas en un nudo estratégico de comunicaciones al estar a menos de 900 m del enlace de autopistas A-8 (Bilbao - Behobia), AP-68 (Vitoria, Burgos, Madrid) y N-634.</p>
-            <p>Naves con grandes posibilidades comerciales. Situadas en primera línea de carretera. Disponen de amplios escaparates a unos metros de la futura parada de metro de Bengoetxe.</p>
+            <p class="pb-8">{{ __('home_p1') }}</p>
+            <p class="pb-8">{{ __('home_p2') }}</p>
+            <p>{{ __('home_p3') }}</p>
         </div>
     </div>
     <div class="col-span-12 tablet:col-span-6 divide-y divide-gaitegi-originals-black">
     
         <div id="images" class="w-full h-full" styles="view-transition-name: image-container">
-            <img style="view-transition-name: image-content" class="w-full h-full object-cover" src="{{ asset('images/test2.jpg') }}"/>
+            <img alt="naves_industriales_gaitegi" style="view-transition-name: image-content" class="w-full h-full object-cover" src="{{ asset('images/test2.jpg') }}"/>
         </div>
 
     </div>

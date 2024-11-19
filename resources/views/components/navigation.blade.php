@@ -1,7 +1,7 @@
 <nav class="w-full grid grid-cols-6 items-center bg-[#EEEEEE] border-t border-solid border-gaitegi-originals-black">
     <div class="hidden tablet:flex flex-col col-span-1 p-8 bg-gaitegi-originals-white">
         <span class="text-body-xs">2024 Gaitegi SL</span> 
-        <a href="#" class="text-body-xs underline">Aviso legal</a>
+        <a href="#" class="text-body-xs underline">{{__('aviso_legal')}}</a>
     </div>
     
     <ul class="col-span-4 grid-cols-subgrid h-full font-funnel flex flex-row justify-between items-center gap-0 divide-x divide-gaitegi-originals-black border-x border-solid border-gaitegi-originals-black">
@@ -18,7 +18,7 @@
     </ul>
 
     <div class="hidden tablet:flex col-span-1 h-full flex-col p-8 bg-gaitegi-originals-white">
-        <button href="" class="text-body-xs underline h-full" data-cc="show-preferencesModal">Configurar Cookies</button>
+        <button href="" class="text-body-xs underline h-full" data-cc="show-preferencesModal">{{__('config_cookies')}}</button>
     </div>
 
 </nav>

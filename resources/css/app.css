@@ -32,3 +32,9 @@
 @view-transition {
     navigation: auto;
 }
+
+@layer base {
+    sup {
+        @apply inline-block;
+    }
+}

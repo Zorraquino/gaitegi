@@ -1,11 +1,7 @@
 {
     "navigation": [
         {
-            "label": "Inicio",
-            "slug": ""
-        },
-        {
-            "label": "Naves",
+            "label": "Naves industriales",
             "slug": "naves"
         },
         {
@@ -20,5 +16,12 @@
             "label": "Localización",
             "slug": "localizacion"
         }
-    ]
+    ],
+    "oficinas": "Oficinas",
+    "oficinas_route": "oficinas",
+    "naves": "Naves industriales",
+    "naves_route": "naves",
+    "modulos": "Módulos",
+    "modulos_route": "modulos",
+    "config_cookies": "Configurar Cookies"
 }
