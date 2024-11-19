@@ -3,7 +3,7 @@
     <head>
         <x-head>{{__('home')}}</x-head>
     </head>
-    <body class="relative h-screen flex flex-col justify-between selection:bg-[#FF2D20] selection:text-white">
+    <body class="relative h-screen flex flex-col justify-between selection:bg-gaitegi-originals-red selection:text-gaitegi-originals-white">
 
         <x-header></x-header>
 

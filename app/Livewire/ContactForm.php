@@ -9,12 +9,14 @@ class ContactForm extends Component
 {
     public $name;
     public $email;
+    public $phone;
     public $message;
 
     protected $rules = [
         'name' => 'required|min:3',
         'email' => 'required|email',
         'message' => 'required|min:10',
+        'phone' => 'required'
     ];
 
     public function submit()
@@ -25,7 +27,8 @@ class ContactForm extends Component
             app(EmailController::class)->sendEmail([
                 'name' => $this->name,
                 'email' => $this->email,
-                'message' => $this->message
+                'message' => $this->message,
+                'phone' => $this->phone
             ]);
 
             session()->flash('message', 'Form submitted successfully!');

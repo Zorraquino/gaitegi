@@ -36,6 +36,8 @@ export default {
 			colors: {
 				'gaitegi-originals-black': '#242021',
 				'gaitegi-originals-white': '#FDFDFD',
+				'gaitegi-originals-blue': '#596C7A',
+				'gaitegi-originals-red': '#DD2000',
 			},
             fontFamily: {
                 funnel: ['FunnelDisplay', ...defaultTheme.fontFamily.sans],
