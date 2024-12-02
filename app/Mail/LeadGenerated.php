@@ -20,10 +20,11 @@ class LeadGenerated extends Mailable
     public $phone;
     public $selection;
 
-    public function __construct($email, $name, $message)
+    public function __construct($email, $name, $phone, $message, $selection)
     {
         $this->email = (string) $email;
         $this->name = (string) $name;
+        $this->phone = (string) $phone;
         $this->message = (string) $message;
         $this->selection = (string) $selection;
     }
@@ -47,7 +48,7 @@ class LeadGenerated extends Mailable
     {
         return new Content(
             view: 'mail.lead',
-            with: ['messages' => $this->message, 'who' => $this->name, 'selection' => $this->selection],
+            with: ['messages' => $this->message, 'who' => $this->name, 'phone' => $this->phone, 'selection' => $this->selection],
         );
     }
 

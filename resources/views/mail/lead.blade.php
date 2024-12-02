@@ -6,6 +6,8 @@
 </head>
 <body>
     <p>{{ $who }}</p>
+    <p>{{ $email }}</p>
+    <p>{{ $phone }}</p>
     <p>{{ $messages }}</p>
     <p>{{ $selection }}</p>
 </body>

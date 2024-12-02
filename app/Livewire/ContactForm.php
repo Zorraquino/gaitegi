@@ -36,10 +36,10 @@ class ContactForm extends Component
                 'selection' => $this->selection
             ]);
 
-            session()->flash('message', 'Form submitted successfully!');
+            session()->flash('message', 'Solicitud enviada correctamente.');
             
         } catch (\Exception $e) {
-            session()->flash('error', 'Failed to send email.');
+            session()->flash('error', 'Error al enviar la solicitud.');
         }
 
         $this->reset(['name', 'email', 'phone', 'message', 'selection', 'privacyPolicy']);

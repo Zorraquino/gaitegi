@@ -16,20 +16,24 @@ class EmailController extends Controller
             $validator = Validator::make($data, [
                 'email' => 'required|email',
                 'name' => 'required|string|max:255',
-                'message' => 'required|string'
+                'phone' => 'required|string',
+                'message' => 'required|string',
+                'selection' => 'required|string'
             ]);
 
             if ($validator->fails()) {
                 throw new \Exception('Validation failed: ' . $validator->errors()->first());
             }
-
+           
             $validated = $validator->validated();
 
             Mail::to($validated['email'])
                 ->send(new LeadGenerated(
                     $validated['email'],
                     $validated['name'],
-                    $validated['message']
+                    $validated['phone'],
+                    $validated['message'],
+                    $validated['selection']
                 ));
 
             Log::info('Email sent successfully to: ' . $validated['email']);
