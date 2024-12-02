@@ -7,5 +7,6 @@
 <body>
     <p>{{ $who }}</p>
     <p>{{ $messages }}</p>
+    <p>{{ $selection }}</p>
 </body>
 </html>

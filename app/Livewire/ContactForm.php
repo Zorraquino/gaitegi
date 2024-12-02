@@ -32,7 +32,8 @@ class ContactForm extends Component
                 'name' => $this->name,
                 'email' => $this->email,
                 'message' => $this->message,
-                'phone' => $this->phone
+                'phone' => $this->phone,
+                'selection' => $this->selection
             ]);
 
             session()->flash('message', 'Form submitted successfully!');
