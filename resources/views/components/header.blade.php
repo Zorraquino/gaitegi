@@ -1,13 +1,13 @@
 <header class="z-30 fixed tablet:relative w-full bg-gaitegi-originals-white flex items-center justify-between border-b border-solid border-gaitegi-originals-black">
     
     <div class="p-4 tablet:p-8">
-        <a href="/{{request()->segment(1)}}/"><img class="" alt="gaitegi__logo" src="{{ asset('images/gaitegi__logo.svg') }}"/></a>
+        <a href="{{ url('/') }}/{{request()->segment(1)}}/"><img class="" alt="gaitegi__logo" src="{{ asset('images/gaitegi__logo.svg') }}"/></a>
     </div>
 
     <div class="h-full flex flex-row items-center justify-center gap-4 pr-4 tablet:pr-0">
         <nav class="flex flex-row divide-x divide-gaitegi-originals-black">
-            <a class="px-2 leading-none {{ (request()->segment(1) === 'es') ? 'font-bold' : '' }}" href="/es/{{request()->segment(2)}}">ES</a>
-            <a class="px-2 leading-none {{ (request()->segment(1) === 'eu') ? 'font-bold' : '' }}" href="/eu/{{request()->segment(2)}}">EU</a>
+            <a class="px-2 leading-none {{ (request()->segment(1) === 'es') ? 'font-bold' : '' }}" href="{{ url('/') }}/es/{{request()->segment(2)}}">ES</a>
+            <a class="px-2 leading-none {{ (request()->segment(1) === 'eu') ? 'font-bold' : '' }}" href="{{ url('/') }}/eu/{{request()->segment(2)}}">EU</a>
         </nav>
         <a class="hidden tablet:flex font-funnel text-body-xl bg-gaitegi-originals-red text-gaitegi-originals-white w-full h-full items-center justify-center px-16">
             {{ __('llamanos') }}

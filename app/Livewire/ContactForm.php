@@ -41,7 +41,7 @@ class ContactForm extends Component
             session()->flash('error', 'Failed to send email.');
         }
 
-        return $this->redirect('/es/localizacion');
+        $this->reset(['name', 'email', 'phone', 'message', 'selection', 'privacyPolicy']);
     }
 
     public function render()

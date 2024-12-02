@@ -9,7 +9,7 @@
             <li class="w-full h-full col-span-1 flex items-center justify-center {{ 
                        (request()->segment(2) === $item['slug']) ? 'bg-gaitegi-originals-black text-gaitegi-originals-white' : 'text-gaitegi-originals-black' 
                    }}">
-                <a href="/{{app()->getLocale()}}/{{$item['slug']}}" 
+                <a href="{{ url('/') }}/{{app()->getLocale()}}/{{$item['slug']}}" 
                    class="font-funnel w-full h-full text-body-m text-current text-center flex items-center justify-center p-4 laptop:p-8 hover:bg-gaitegi-originals-black hover:text-gaitegi-originals-white transition-all">
                     {{$item['label']}}
                 </a>
@@ -29,7 +29,7 @@
             <li class="w-full h-full col-span-1 flex items-center justify-center {{ 
                        (request()->segment(2) === $item['slug']) ? 'bg-gaitegi-originals-black text-gaitegi-originals-white' : 'text-gaitegi-originals-black' 
                    }}">
-                <a href="/{{app()->getLocale()}}/{{$item['slug']}}" 
+                <a href="{{ url('/') }}/{{app()->getLocale()}}/{{$item['slug']}}" 
                    class="font-funnel w-full h-full text-body-l text-current text-right flex items-center justify-end p-8 laptop:p-8 hover:bg-gaitegi-originals-black hover:text-gaitegi-originals-white transition-all">
                     {{$item['label']}}
                 </a>
