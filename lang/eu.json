@@ -61,7 +61,12 @@
     ],
     
     "config_cookies": "Cookie-ak konfiguratu",
-    "aviso_legal": "Aviso legal",
+    "aviso_legal": "Lege oharra",
+    "legal": "Lege Oharra",
+    "legal_route": "lege-oharra",
+
+    "legal_title": "Lege Oharra",
+    "legal_subtitle": "",
     
     "home_title": "Industria-nabeen alokairua",
     "home_subtitle": "2.000 eta 6.000 metro koadro bitarteko industria-nabe eta bulegoen alokairua.",

@@ -17,14 +17,16 @@ class ShowPage extends Component
             'naves' => 'naves',
             'oficinas' => 'oficinas',
             'modulos' => 'modulos',
-            'localizacion' => 'localizacion'
+            'localizacion' => 'localizacion',
+            'aviso-legal' => 'legal'
         ],
         'eu' => [
             '' => 'inicio',
             'nabeak' => 'naves',
             'bulegoak' => 'oficinas',
             'moduloak' => 'modulos',
-            'kokapena' => 'localizacion'
+            'kokapena' => 'localizacion',
+            'lege-oharra' => 'legal'
         ]
     ];
     

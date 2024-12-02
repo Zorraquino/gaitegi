@@ -24,6 +24,11 @@
     "naves_route": "naves",
     "modulos": "Módulos",
     "modulos_route": "modulos",
+    "legal": "Aviso Legal",
+    "legal_route": "aviso-legal",
+
+    "legal_title": "Aviso Legal",
+    "legal_subtitle": "",
 
     "llamanos": "Llámanos",
     "consultanos": "¡Consúltanos!",
