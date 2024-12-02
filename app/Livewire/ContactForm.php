@@ -35,13 +35,10 @@ class ContactForm extends Component
                 'phone' => $this->phone,
                 'selection' => $this->selection
             ]);
-
-            session()->flash('message', 'Solicitud enviada correctamente.');
-            
         } catch (\Exception $e) {
             session()->flash('error', 'Error al enviar la solicitud.');
         }
-
+        session()->flash('message', 'Solicitud enviada correctamente.');
         $this->reset(['name', 'email', 'phone', 'message', 'selection', 'privacyPolicy']);
     }
 

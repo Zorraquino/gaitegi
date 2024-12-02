@@ -52,5 +52,17 @@
         </div>
 
     </form>
+
+    @if (session()->has('message'))
+        <div class="z-30 fixed bottom-[112px] right-4 py-4 px-8 shadow-sm border border-solid border-green-400 bg-green-200 text-green-950">
+            {{ session('message') }}
+        </div>
+    @endif
+
+    @if (session()->has('error'))
+        <div class="z-30 fixed bottom-[112px] right-4 py-4 px-8 shadow-sm border border-solid border-red-400 bg-red-200 text-red-950">
+            {{ session('error') }}
+        </div>
+    @endif
     
 </div>
