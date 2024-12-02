@@ -25,42 +25,69 @@ export function initCookieConsent() {
             }
         },
         language: {
-            default: 'en',
+            default: 'es',
+            autoDetect: 'document',
             translations: {
-                en: {
+                es: {
                     consentModal: {
-                        title: 'We use cookies',
-                        description: 'Cookie modal description',
-                        acceptAllBtn: 'Accept all',
-                        acceptNecessaryBtn: 'Reject all',
-                        showPreferencesBtn: 'Manage Individual preferences'
+                        title: 'Configuración de cookies',
+                        description: 'Utilizamos cookies propias y de terceros para analizar nuestros servicios y mostrarte publicidad relacionada con tus preferencias, en base a un perfil elaborado a partir de tus hábitos de navegación (por ejemplo, páginas visitadas).',
+                        acceptAllBtn: 'Aceptar todas',
+                        acceptNecessaryBtn: 'Rechazar todas',
+                        showPreferencesBtn: 'Configurar'
                     },
                     preferencesModal: {
-                        title: 'Manage cookie preferences',
-                        acceptAllBtn: 'Accept all',
-                        acceptNecessaryBtn: 'Reject all',
-                        savePreferencesBtn: 'Accept current selection',
-                        closeIconLabel: 'Close modal',
+                        title: 'Centro de preferencias de Privacidad',
+                        acceptAllBtn: 'Aceptar todas',
+                        acceptNecessaryBtn: 'Rechazar todas',
+                        savePreferencesBtn: 'Aceptar selección actual',
+                        closeIconLabel: 'Cerrar modal',
                         sections: [
                             {
-                                title: 'Somebody said ... cookies?',
-                                description: 'I want one!'
-                            },
-                            {
-                                title: 'Strictly Necessary cookies',
-                                description: 'These cookies are essential for the proper functioning of the website and cannot be disabled.',
-    
-                                //this field will generate a toggle linked to the 'necessary' category
+                                title: 'Cookies Técnicas',
+                                description: 'Estas cookies son necesarias para que el sitio web funcione y no se pueden desactivar en nuestros sistemas. Por lo general, solo se configuran en respuesta a sus acciones realizadas al solicitar servicios, como establecer sus preferencias de privacidad, iniciar sesión o completar formularios. Puede configurar su navegador para bloquear o alertar sobre estas cookies, pero algunas áreas del sitio no funcionarán. Estas cookies no almacenan ninguna información de identificación.',
                                 linkedCategory: 'necessary'
                             },
                             {
-                                title: 'Performance and Analytics',
-                                description: 'These cookies collect information about how you use our website. All of the data is anonymized and cannot be used to identify you.',
+                                title: 'Cookies Analíticas',
+                                description: 'Estas cookies nos permiten realizar el seguimiento y análisis del comportamiento de los usuarios de la página, y en concreto, contar las visitas y fuentes de tráfico para poder evaluar el rendimiento de nuestro sitio y mejorarlo.',
                                 linkedCategory: 'analytics'
                             },
                             {
-                                title: 'More information',
-                                description: 'For any queries in relation to my policy on cookies and your choices, please <a href="#contact-page">contact us</a>'
+                                title: 'Más información',
+                                description: 'Para obtener más información sobre cómo utilizamos las cookies, consulte nuestra <a href="https://gaitegi.com/politica-cookies.html" target="_blank">política de privacidad</a>. '
+                            }
+                        ]
+                    }
+                },
+                eu: {
+                    consentModal: {
+                        title: 'EU Configuración de cookies',
+                        description: 'Utilizamos cookies propias y de terceros para analizar nuestros servicios y mostrarte publicidad relacionada con tus preferencias, en base a un perfil elaborado a partir de tus hábitos de navegación (por ejemplo, páginas visitadas).',
+                        acceptAllBtn: 'Aceptar todas',
+                        acceptNecessaryBtn: 'Rechazar todas',
+                        showPreferencesBtn: 'Configurar'
+                    },
+                    preferencesModal: {
+                        title: 'EU Centro de preferencias de Privacidad',
+                        acceptAllBtn: 'Aceptar todas',
+                        acceptNecessaryBtn: 'Rechazar todas',
+                        savePreferencesBtn: 'Aceptar selección actual',
+                        closeIconLabel: 'Cerrar modal',
+                        sections: [
+                            {
+                                title: 'Cookies Técnicas',
+                                description: 'Estas cookies son necesarias para que el sitio web funcione y no se pueden desactivar en nuestros sistemas. Por lo general, solo se configuran en respuesta a sus acciones realizadas al solicitar servicios, como establecer sus preferencias de privacidad, iniciar sesión o completar formularios. Puede configurar su navegador para bloquear o alertar sobre estas cookies, pero algunas áreas del sitio no funcionarán. Estas cookies no almacenan ninguna información de identificación.',
+                                linkedCategory: 'necessary'
+                            },
+                            {
+                                title: 'Cookies Analíticas',
+                                description: 'Estas cookies nos permiten realizar el seguimiento y análisis del comportamiento de los usuarios de la página, y en concreto, contar las visitas y fuentes de tráfico para poder evaluar el rendimiento de nuestro sitio y mejorarlo.',
+                                linkedCategory: 'analytics'
+                            },
+                            {
+                                title: 'Más información',
+                                description: 'Para obtener más información sobre cómo utilizamos las cookies, consulte nuestra <a href="https://gaitegi.com/politica-cookies.html" target="_blank">política de privacidad</a>. '
                             }
                         ]
                     }
