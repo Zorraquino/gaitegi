@@ -1,4 +1,4 @@
-<div id="contact" class="col-span-12 tablet:col-span-6 h-full max-h-[346px]">
+<div id="contact" class="col-span-12 tablet:col-span-6 h-full max-h-[346px] border-b border-solid border-gaitegi-originals-black">
 
     <form wire:submit.prevent="submit" class="h-full">
 
