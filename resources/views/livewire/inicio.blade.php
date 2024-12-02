@@ -1,30 +1,30 @@
 <div class="h-full grid grid-cols-12">
-    <div class="col-span-12 tablet:col-span-6 flex flex-col divide-y divide-gaitegi-originals-black border-r-[0.5px] border-solid border-gaitegi-originals-black">
-        <div id="title" class="p-8">
-            <h1 class="font-funnel text-title-xl font-bold">{{ __('home_title') }}</h1>
+    <div class="col-span-12 laptop:col-span-6 flex flex-col divide-y divide-gaitegi-originals-black border-b-[0.5px] laptop:border-r-[0.5px] border-solid border-gaitegi-originals-black order-2 laptop:order-2">
+        <div id="title" class="p-4 tablet:p-8">
+            <h1 class="font-funnel text-title-l tablet:text-title-xl !font-bold">{!! __('home_title') !!}</h1>
             <span class="text-body-l">{{ __('home_subtitle') }}</span>
-            <div class="flex justify-start gap-8 pt-8">
-                <a wire:navigate.hover href="/{{app()->getLocale()}}/{{__('naves_route')}}" 
-                   class="font-funnel text-body-m text-current text-center flex items-center justify-center py-2 px-8 border border-solid border-gaitegi-originals-black hover:bg-gaitegi-originals-black hover:text-gaitegi-originals-white transition-all">
+            <div class="flex flex-wrap justify-start gap-8 pt-8">
+                <a href="/{{app()->getLocale()}}/{{__('naves_route')}}" 
+                   class="font-funnel text-body-m text-current text-center flex items-center justify-center py-4 px-8 border border-solid border-gaitegi-originals-black hover:bg-gaitegi-originals-black hover:text-gaitegi-originals-white transition-all">
                     {{__('naves')}}
                 </a>
-                <a wire:navigate.hover href="/{{app()->getLocale()}}/{{__('oficinas_route')}}" 
-                   class="font-funnel text-body-m text-current text-center flex items-center justify-center py-2 px-8 border border-solid border-gaitegi-originals-black hover:bg-gaitegi-originals-black hover:text-gaitegi-originals-white transition-all">
+                <a href="/{{app()->getLocale()}}/{{__('oficinas_route')}}" 
+                   class="font-funnel text-body-m text-current text-center flex items-center justify-center py-4 px-8 border border-solid border-gaitegi-originals-black hover:bg-gaitegi-originals-black hover:text-gaitegi-originals-white transition-all">
                     {{__('oficinas')}}
                 </a>
-                <a wire:navigate.hover href="/{{app()->getLocale()}}/{{__('modulos_route')}}" 
-                   class="font-funnel text-body-m text-current text-center flex items-center justify-center py-2 px-8 border border-solid border-gaitegi-originals-black hover:bg-gaitegi-originals-black hover:text-gaitegi-originals-white transition-all">
+                <a href="/{{app()->getLocale()}}/{{__('modulos_route')}}" 
+                   class="font-funnel text-body-m text-current text-center flex items-center justify-center py-4 px-8 border border-solid border-gaitegi-originals-black hover:bg-gaitegi-originals-black hover:text-gaitegi-originals-white transition-all">
                     {{__('modulos')}}
                 </a>
             </div>
         </div>
         <div id="information" class="grow p-8">
-            <p class="pb-8">{{ __('home_p1') }}</p>
-            <p class="pb-8">{{ __('home_p2') }}</p>
-            <p>{{ __('home_p3') }}</p>
+            <p class="pb-8 font-light">{!! __('home_p1') !!}</p>
+            <p class="pb-8 font-light">{!! __('home_p2') !!}</p>
+            <p class="font-light">{!! __('home_p3') !!}</p>
         </div>
     </div>
-    <div class="col-span-12 tablet:col-span-6 divide-y divide-gaitegi-originals-black">
+    <div class="col-span-12 laptop:col-span-6 divide-y divide-gaitegi-originals-black order-1 laptop:order-2">
     
         <div id="images" class="w-full h-full" styles="view-transition-name: image-container">
             <img alt="naves_industriales_gaitegi" style="view-transition-name: image-content" class="w-full h-full object-cover" src="{{ asset('images/test2.jpg') }}"/>

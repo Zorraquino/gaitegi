@@ -11,12 +11,16 @@ class ContactForm extends Component
     public $email;
     public $phone;
     public $message;
+    public $selection;
+    public $privacyPolicy;
 
     protected $rules = [
         'name' => 'required|min:3',
         'email' => 'required|email',
         'message' => 'required|min:10',
-        'phone' => 'required'
+        'phone' => 'required',
+        'selection' => 'required',
+        'privacyPolicy' => 'accepted'
     ];
 
     public function submit()

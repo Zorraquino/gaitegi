@@ -1,19 +1,17 @@
 <div class="h-full grid grid-cols-12">
-    <div class="col-span-12 tablet:col-span-6 flex flex-col divide-y divide-gaitegi-originals-black border-r-[0.5px] border-solid border-gaitegi-originals-black">
-        <div id="title" class="p-8 flex flex-col gap-6">
-            <h1 class="font-funnel text-title-xl font-bold">Localización</h1>
-            <span class="text-body-m">Término municipal de Galdakao, Vizcaya, a 8 Km de Bilbao y situadas en un <strong>nudo estratégico</strong> de comunicaciones al estar a menos de 900 m del enlace de autopistas <strong>A-8</strong> (Bilbao- Behobia), AP-68 (Vitoria, Burgos, Madrid) y <strong>N-634</strong>.</span>
+    <div class="col-span-12 laptop:col-span-6 flex flex-col divide-y divide-gaitegi-originals-black border-b-[0.5px] laptop:border-r-[0.5px] border-solid border-gaitegi-originals-black order-2 laptop:order-1">
+        <div id="title" class="p-8 flex flex-col grow gap-6">
+            <h1 class="font-funnel text-title-l tablet:text-title-xl !font-bold">{!! __('localizacion_title') !!}</h1>
+            <span class="text-body-m">{!! __('localizacion_subtitle') !!}</span>
+            <div class="flex flex-wrap justify-start gap-8 pt-8">
+                <a href="" class="font-funnel text-body-m text-current text-center flex items-center justify-center py-2 px-8 border border-solid border-gaitegi-originals-black hover:bg-gaitegi-originals-black hover:text-gaitegi-originals-white transition-all">
+                    {{__('localizacion_encuentranos')}} -->
+                </a>
+            </div>
         </div>
-        <div id="information" class="grow p-8">
-            <h2 class="font-funnel text-title-s font-bold mb-6">¿Tienes alguna duda?</h2>
-            <livewire:contact-form />
-        </div>
+        <livewire:contact-form />
     </div>
-    <div class="col-span-12 tablet:col-span-6 divide-y divide-gaitegi-originals-black border-l-[0.5px] border-solid border-gaitegi-originals-black">
-    
-        <div id="images" class="w-full h-full" styles="view-transition-name: image-container">
-            <img alt="naves_industriales_gaitegi" style="view-transition-name: image-content" class="w-full h-full object-cover" src="{{ asset('images/test2.jpg') }}"/>
-        </div>
-
+    <div wire:ignore class="col-span-12 tablet:col-span-6 divide-y divide-gaitegi-originals-black border-l-[0.5px] border-solid border-gaitegi-originals-black order-1 laptop:order-2">
+        <div id="map" class="w-full h-full" style="width: 100%; height: 100%;"></div>
     </div>
 </div>

@@ -7,6 +7,13 @@
 <meta name="description" content="Gaitegi - {{__('home')}}">
 <meta name="author" content="Gaitegi">
 <meta name="robots" content="index, follow">
+@if (request()->is('es/modulos'))
+    <link rel="canonical" href="{{ url('oficinas') }}" />
+@elseif (request()->is('eu/moduloak'))
+    <link rel="canonical" href="{{ url('bulegoak') }}" />
+@else
+    <link rel="canonical" href="{{ url()->current() }}" />
+@endif
 <meta name="keywords" content="">
 <meta name="csrf-token" content="{{ csrf_token() }}">
 

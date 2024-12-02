@@ -17,11 +17,108 @@
             "slug": "localizacion"
         }
     ],
+
     "oficinas": "Oficinas",
     "oficinas_route": "oficinas",
     "naves": "Naves industriales",
     "naves_route": "naves",
     "modulos": "Módulos",
     "modulos_route": "modulos",
-    "config_cookies": "Configurar Cookies"
+
+    "llamanos": "Llámanos",
+
+    "form_title": "¿Tienes alguna duda?",
+    "form_name_ph": "Nombre",
+    "form_phone_ph": "Teléfono",
+    "form_email_ph": "Email",
+    "form_comentarios_ph": "Comentarios",
+    "form_rgpd": "He leído y acepto la <a class='text-gaitegi-originals-blue font-bold' href='#' target='_blank'>política de privacidad.</a>",
+    "form_submit": "¡Consúltanos!",
+    "form_interesado": "Interesado en:",
+    "form_interesado_opciones": [
+        {
+            "opcion": "1.300 - 2.250 m<sup>2</sup>",
+            "value": "1.300 - 2.250 m2"
+        },
+        {
+            "opcion": "3.000 - 4.300 m<sup>2</sup>",
+            "value": "3.000 - 4.300 m2"
+        },
+        {
+            "opcion": "6.000 m<sup>2</sup>",
+            "value": "6.000 m2"
+        },
+        {
+            "opcion": "Módulos",
+            "value": "Módulos"
+        },
+        {
+            "opcion": "Oficinas",
+            "value": "Oficinas"
+        }
+    ],
+    
+    "config_cookies": "Configurar Cookies",
+    "aviso_legal": "Aviso legal",
+    
+    "home_title": "Alquiler de&nbsp;naves industriales",
+    "home_subtitle": "Desde 2.000 m² a 6.000 m² de planta, con oficinas.",
+    "home_p1": "Magnificas Naves preparadas para uso como <span class='font-bold'>centro logístico y distribución capilar</span>, al localizarse en una privilegiada situación y disponer de amplios espacios de maniobra interior privados.",
+    "home_p2": "<span class='font-bold'>Pabellones</span> ubicados en el término municipal de <span class='font-bold'>Galdakao</span>, Vizcaya a 8 Km de Bilbao y situadas en un nudo estratégico de comunicaciones al estar a menos de 900 m del enlace de autopistas A-8 (Bilbao - Behobia), AP-68 (Vitoria, Burgos, Madrid) y N-634.",
+    "home_p3": "Naves con grandes posibilidades <span class='font-bold'>comerciales</span>. Situadas en primera línea de carretera. Disponen de amplios escaparates a unos metros de la futura <span class='font-bold'>parada de metro</span> de Bengoetxe.",
+    
+    "modulos_title": "Oficinas & Módulos",
+    "modulos_p1": "Alquiler de oficinas y módulos en un edificio de más de 4.000 m² en cuatro plantas, divisibles tanto en módulos como en oficinas.",
+    "modulos_p2": "Parking exclusivo de más de 2.300 m².<br>Primera Línea de carretera N-634<br>A 900 m enlace autopistas A-8 y AP-68.<br>A 50 m parada Bizkaibus.<br>A 250 m futura parada metro.<br>Cambio de sentido 250 m ambas direcciones.<br>A 8 min de Bilbao.",
+    
+    "oficinas_title": "Oficinas & Módulos",
+    "oficinas_p1": "Alquiler de oficinas y módulos en un edificio de <span class='font-bold'>más de 4.000 m²</span> en cuatro plantas, divisibles tanto en módulos como en oficinas.",
+    "oficinas_p2": "Parking exclusivo de más de 2.300 m².<br>Primera Línea de carretera N-634<br>A 900 m enlace autopistas A-8 y AP-68.<br>A 50 m parada Bizkaibus.<br>A 250 m futura parada metro.<br>Cambio de sentido 250 m ambas direcciones.<br>A 8 min de Bilbao.",
+
+    "naves_title": "Naves en alquiler",
+    "naves_subtitle": "Desde 2.000 m² a 6.000 m² de planta, con oficinas.",
+    "naves_p1": "",
+    "naves_p2": "",
+    "navesCaracteristicas": [
+        {
+            "text": "Naves con unidades de carga dotados de puerta seccional."
+        },
+        {
+            "text": "Con unidades de puertas preleva independientes para acceso directo al almacén."
+        },
+        {
+            "text": "Playas de maniobra para camiones de hasta 34 metros."
+        },
+        {
+            "text": "Solera interior y exterior de hormigón armado."
+        },
+        {
+            "text": "Vallado perimetral con puerta de acceso independiente."
+        },
+        {
+            "text": "Centros de transformación propios."
+        }
+    ],
+    "navesLocalizacion_title": "Localización",
+    "navesLocalizacion": [
+        {
+            "text": "Parking exclusivo de más de 2.300 m<sup>2</sup>"
+        },
+        {
+            "text": "Primera línea de carretera N-634"
+        },
+        {
+            "text": "A 900 m del enlace de autopista A-8/AP-8 y AP-68"
+        },
+        {
+            "text": "Cambio de sentido a 250 m en ambas direcciones"
+        },
+        {
+            "text": "A 8 min de Bilbao"
+        }
+    ],
+
+    "localizacion_title": "Contáctanos",
+    "localizacion_subtitle": "¿Tienes alguna duda? Escríbenos y te contestaremos en breve.",
+    "localizacion_encuentranos": "Encuéntranos"
 }

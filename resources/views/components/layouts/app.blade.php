@@ -7,7 +7,7 @@
 
         <x-header></x-header>
 
-        <main class="w-full grow">
+        <main class="w-full grow mt-20 tablet:mt-0">
             {{$slot}}
         </main>
 
