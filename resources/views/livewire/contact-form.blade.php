@@ -35,7 +35,7 @@
 
             <div class="grid grid-cols-subgrid col-span-4 divide-x divide-gaitegi-originals-black">
                 <div class="col-span-2 relative">
-                    <textarea wire:model="message" class="w-full h-full py-6 px-4 text-body-s" placeholder="{{ __('form_comentarios_ph') }}"></textarea>
+                    <textarea wire:model="message" class="w-full h-full py-6 px-4 text-body-s resize-none" placeholder="{{ __('form_comentarios_ph') }}"></textarea>
                     @error('message') <span class="text-red-500 absolute text-[10px] top-[4px] left-[16px]">{{ $message }}</span> @enderror
                 </div>
 
