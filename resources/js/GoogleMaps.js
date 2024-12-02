@@ -20,7 +20,8 @@ export function initMap() {
         const map = new google.maps.Map(mapElement, {
             center: center,
             zoom: 16,
-            mapId: 'gaitegi-map'
+            mapId: 'gaitegi-map',
+            disableDefaultUI: true,
         });
         const marker = new Marker({
             map: map,

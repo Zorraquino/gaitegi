@@ -23,7 +23,7 @@
 
 </nav>
 
-<nav id="mobileMenu" class="z-20 fixed top-0 pt-20 right-0 flex flex-col tablet:hidden w-full h-full items-center bg-[#EEEEEE] border-t border-solid border-gaitegi-originals-black transition-colors">
+<nav id="mobileMenu" class="z-20 fixed top-0 pt-20 pb-[108px] right-0 flex flex-col tablet:hidden w-full h-full items-center bg-[#EEEEEE] border-t border-solid border-gaitegi-originals-black transition-colors">
     <ul class="w-full h-full font-funnel flex flex-col justify-between items-center gap-0 divide-y divide-gaitegi-originals-black">
         @foreach(__('navigation') as $key => $item)
             <li class="w-full h-full col-span-1 flex items-center justify-center {{ 
@@ -36,7 +36,10 @@
             </li>
         @endforeach
     </ul>
+</nav>
+
+<div id="llamanos" class="block tablet:hidden z-20 fixed bottom-0 w-full">
     <a class="flex font-funnel text-body-l bg-gaitegi-originals-red text-gaitegi-originals-white w-full items-center justify-center p-10">
         {{ __('llamanos') }}
     </a>
-</nav>
+</div>

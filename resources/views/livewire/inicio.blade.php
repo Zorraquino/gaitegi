@@ -1,7 +1,7 @@
 <div class="h-full grid grid-cols-12">
     <div class="col-span-12 laptop:col-span-6 flex flex-col divide-y divide-gaitegi-originals-black border-b-[0.5px] laptop:border-r-[0.5px] border-solid border-gaitegi-originals-black order-2 laptop:order-2">
         <div id="title" class="p-4 tablet:p-8">
-            <h1 class="font-funnel text-title-l tablet:text-title-xl !font-bold">{!! __('home_title') !!}</h1>
+            <h1 class="font-funnel text-title-m tablet:text-title-xl !font-bold">{!! __('home_title') !!}</h1>
             <span class="text-body-l">{{ __('home_subtitle') }}</span>
             <div class="flex flex-wrap justify-start gap-8 pt-8">
                 <a href="/{{app()->getLocale()}}/{{__('naves_route')}}" 
@@ -26,7 +26,7 @@
     </div>
     <div class="col-span-12 laptop:col-span-6 divide-y divide-gaitegi-originals-black order-1 laptop:order-2">
     
-        <div id="images" class="w-full h-full" styles="view-transition-name: image-container">
+        <div id="images" class="w-full h-[320px] tablet:h-full" styles="view-transition-name: image-container">
             <img alt="naves_industriales_gaitegi" style="view-transition-name: image-content" class="w-full h-full object-cover" src="{{ asset('images/test2.jpg') }}"/>
         </div>
 
