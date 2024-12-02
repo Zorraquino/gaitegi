@@ -9,7 +9,7 @@
             <p class="">{!! __('oficinas_p2') !!}</p>
         </div>
     </div>
-    <div class="col-span-12 tablet:col-span-6 divide-y divide-gaitegi-originals-black border-l-[0.5px] border-solid border-gaitegi-originals-black order-1 laptop:order-2">
+    <div class="col-span-12 laptop:col-span-6 divide-y divide-gaitegi-originals-black border-l-[0.5px] border-solid border-gaitegi-originals-black order-1 laptop:order-2">
     
         <div id="images" class="w-full h-[320px] tablet:h-full" styles="view-transition-name: image-container">
             <img alt="oficinas_gaitegi" style="view-transition-name: image-content" class="w-full h-full object-cover" src="{{ asset('images/oficinas.jpg') }}"/>

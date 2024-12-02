@@ -12,11 +12,11 @@
         </main>
 
         @if (request()->segment(2) !== 'localizacion' && request()->segment(2) !== 'kokapena')
-        <div class="flex flex-col tablet:hidden pb-6">
+        <div class="flex flex-col laptop:hidden pb-6">
             <x-footer></x-footer>
         </div>
         @else
-        <div class="block tablet:hidden pb-[108px]"></div>
+        <div class="block laptop:hidden pb-[108px]"></div>
         @endif
 
         <x-navigation></x-navigation>

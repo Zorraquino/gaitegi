@@ -23,9 +23,7 @@ document.addEventListener('livewire:navigated', () => {
     menuClosed = true;
 
     if(document.getElementById('map')) {
-        console.log('map found');
         loadGoogleMapsScript().then(() => {
-            console.log('loading map');
             initMap();
         });
     }
@@ -42,7 +40,6 @@ document.addEventListener('click', (event) => {
             document.body.style.overflow = 'hidden';
         } else {
             gsap.to('#mobileMenu', { duration: 0.25, x: '100%' });
-            console.log(event.target);
             event.target.classList.remove('bg-gaitegi-originals-black');
             event.target.querySelectorAll('svg path').forEach(element => {
                 element.classList.remove('stroke-gaitegi-originals-white');
