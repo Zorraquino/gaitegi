@@ -1,40 +1,42 @@
 {
     "navigation": [
         {
-            "label": "Naves industriales",
-            "slug": "naves"
+            "label": "Industria-nabeak",
+            "slug": "nabeak"
         },
         {
-            "label": "Oficinas",
-            "slug": "oficinas"
+            "label": "Bulegoak",
+            "slug": "bulegoak"
         },
         {
-            "label": "Módulos",
-            "slug": "modulos"
+            "label": "Moduloak",
+            "slug": "moduloak"
         },
         {
-            "label": "Localización",
-            "slug": "localizacion"
+            "label": "Kokapena",
+            "slug": "kokapena"
         }
     ],
 
-    "oficinas": "Oficinas",
-    "oficinas_route": "oficinas",
-    "naves": "Naves industriales",
-    "naves_route": "naves",
-    "modulos": "Módulos",
-    "modulos_route": "modulos",
+    "oficinas": "Bulegoak",
+    "oficinas_route": "bulegoak",
+    "naves": "Industria-nabeak",
+    "naves_route": "nabeak",
+    "modulos": "Moduloak",
+    "modulos_route": "moduloak",
 
-    "llamanos": "Llámanos",
+    "llamanos": "Deitu",
+    "consultanos": "Kontsulta gaitzazu!",
+    "consultanos_href": "kokapena",
 
     "form_title": "¿Tienes alguna duda?",
-    "form_name_ph": "Nombre",
-    "form_phone_ph": "Teléfono",
-    "form_email_ph": "Email",
-    "form_comentarios_ph": "Comentarios",
-    "form_rgpd": "He leído y acepto la <a class='text-gaitegi-originals-blue font-bold' href='#' target='_blank'>política de privacidad.</a>",
-    "form_submit": "¡Consúltanos!",
-    "form_interesado": "Interesado en:",
+    "form_name_ph": "Izena",
+    "form_phone_ph": "Telefonoa",
+    "form_email_ph": "Emaila",
+    "form_comentarios_ph": "Irukinak",
+    "form_rgpd": "Irakurri dut eta onartzen dut <a class='text-gaitegi-originals-blue font-bold' href='#' target='_blank'>pribatutasun-politika.</a>",
+    "form_submit": "Kontsulta gaitzazu!",
+    "form_interesado": "Interesatzen zait:",
     "form_interesado_opciones": [
         {
             "opcion": "1.300 - 2.250 m<sup>2</sup>",
@@ -49,76 +51,75 @@
             "value": "6.000 m2"
         },
         {
-            "opcion": "Módulos",
+            "opcion": "Moduloak",
             "value": "Módulos"
         },
         {
-            "opcion": "Oficinas",
+            "opcion": "Bulegoak",
             "value": "Oficinas"
         }
     ],
     
-    "config_cookies": "Configurar Cookies",
+    "config_cookies": "Cookie-ak konfiguratu",
     "aviso_legal": "Aviso legal",
     
-    "home_title": "Alquiler de&nbsp;naves industriales",
-    "home_subtitle": "Desde 2.000 m² a 6.000 m² de planta, con oficinas.",
-    "home_p1": "Magnificas Naves preparadas para uso como <span class='font-bold'>centro logístico y distribución capilar</span>, al localizarse en una privilegiada situación y disponer de amplios espacios de maniobra interior privados.",
-    "home_p2": "<span class='font-bold'>Pabellones</span> ubicados en el término municipal de <span class='font-bold'>Galdakao</span>, Vizcaya a 8 Km de Bilbao y situadas en un nudo estratégico de comunicaciones al estar a menos de 900 m del enlace de autopistas A-8 (Bilbao - Behobia), AP-68 (Vitoria, Burgos, Madrid) y N-634.",
-    "home_p3": "Naves con grandes posibilidades <span class='font-bold'>comerciales</span>. Situadas en primera línea de carretera. Disponen de amplios escaparates a unos metros de la futura <span class='font-bold'>parada de metro</span> de Bengoetxe.",
+    "home_title": "Industria-nabeen alokairua",
+    "home_subtitle": "2.000 eta 6.000 metro koadro bitarteko industria-nabe eta bulegoen alokairua.",
+    "home_p1": "Industria-nabe bikainak, erabilera logistikorako eta hiriko ile-banaketarako prestatuak. Kokapen pribilegiatuan daude, eta barruko maniobra-espazio pribatu zabalak dituzte.",
+    "home_p2": "Pabiloiak Galdakaon (Bizkaia) daude, Bilbotik 8 km-ra, eta komunikazio-korapilo estrategiko batean daude, 900 metro baino gutxiagora baitaude AP-8 (Santander-Bilbo-Behobia) eta AP-68 (Gasteiz-Burgos-Madril) autobideen lotunetik.",
+    "home_p3": "Merkataritza-aukera handiak dituzten nabeak. Errepidearen lehen lerroan daude. Erakusleiho zabalak dituzte, Bengoetxeko etorkizuneko metro-geltokitik metro batzuetara.",
     
-    "modulos_title": "Oficinas & Módulos",
-    "modulos_p1": "Alquiler de oficinas y módulos en un edificio de más de 4.000 m² en cuatro plantas, divisibles tanto en módulos como en oficinas.",
-    "modulos_p2": "Parking exclusivo de más de 2.300 m².<br>Primera Línea de carretera N-634<br>A 900 m enlace autopistas A-8 y AP-68.<br>A 50 m parada Bizkaibus.<br>A 250 m futura parada metro.<br>Cambio de sentido 250 m ambas direcciones.<br>A 8 min de Bilbao.",
+    "modulos_title": "Moduloak",
+    "modulos_subtitle": "4.000 metro koadro baino gehiago lau solarutan.",
+    "modulos_p1": "4.000 metro koadro baino gehiagoko erakin batean ditugu bulegoak eta moduluak alokatzeko, lau solairutan. Bulego eta moduluetan bana daitezke.",
+    "modulos_p2": "Errepideko lehen lerroan.<br>A-8/AP-8 eta AP-68 autobideen lotunetik 900 metrora.<br>Bizkaibuseko geltokitik 50 metrora.<br>Etorkizuneko metro-geltokitik 250m-ra.<br>Noranzko aldaketa 250m-ra, bi norabideetan.<br>Bilbotik 8 minutura.",
     
-    "oficinas_title": "Oficinas & Módulos",
+    "oficinas_title": "Bulegoak",
+    "oficinas_subtitle": "4.000 metro koadro baino gehiago lau solarutan.",
     "oficinas_p1": "Alquiler de oficinas y módulos en un edificio de <span class='font-bold'>más de 4.000 m²</span> en cuatro plantas, divisibles tanto en módulos como en oficinas.",
     "oficinas_p2": "Parking exclusivo de más de 2.300 m².<br>Primera Línea de carretera N-634<br>A 900 m enlace autopistas A-8 y AP-68.<br>A 50 m parada Bizkaibus.<br>A 250 m futura parada metro.<br>Cambio de sentido 250 m ambas direcciones.<br>A 8 min de Bilbao.",
 
-    "naves_title": "Naves en alquiler",
-    "naves_subtitle": "Desde 2.000 m² a 6.000 m² de planta, con oficinas.",
+    "naves_title": "Industria-nabeak alokairuan",
+    "naves_subtitle": "2.000 eta 6.000 metro koadro bitarteko industria-nabe eta bulegoen alokairua",
     "naves_p1": "",
     "naves_p2": "",
     "navesCaracteristicas": [
         {
-            "text": "Naves con unidades de carga dotados de puerta seccional."
+            "text": "Karga-unitatea eta ate sekzionala dituzten industria-nabeak."
         },
         {
-            "text": "Con unidades de puertas preleva independientes para acceso directo al almacén."
+            "text": "Ate independienteak, biltegira zuzenean sartzeko."
         },
         {
-            "text": "Playas de maniobra para camiones de hasta 34 metros."
+            "text": "34 metrorainoko kamioientzako maniobra-hondartzak."
         },
         {
-            "text": "Solera interior y exterior de hormigón armado."
+            "text": "Hormigoi armatuzko barruko eta kanpoko zolata."
         },
         {
-            "text": "Vallado perimetral con puerta de acceso independiente."
+            "text": "Perimetroko hesia, sarbide independenteko atearekin."
         },
         {
-            "text": "Centros de transformación propios."
+            "text": "Argindar transformazio-zentro propioak."
         }
     ],
-    "navesLocalizacion_title": "Localización",
+    "navesLocalizacion_title": "Kokapena",
     "navesLocalizacion": [
         {
-            "text": "Parking exclusivo de más de 2.300 m<sup>2</sup>"
+            "text": "2.300 metro koadro baino gehiagoko aparkaleku esklusiboa"
         },
         {
-            "text": "Primera línea de carretera N-634"
+            "text": "Errepideko lehen lerroan"
         },
         {
-            "text": "A 900 m del enlace de autopista A-8/AP-8 y AP-68"
+            "text": "A-8/AP-8 eta AP-68 autobideen lotunetik 900 metrora"
         },
         {
-            "text": "Cambio de sentido a 250 m en ambas direcciones"
-        },
-        {
-            "text": "A 8 min de Bilbao"
+            "text": "Bilbotik 8 minutura"
         }
     ],
 
-    "localizacion_title": "Contáctanos",
-    "localizacion_subtitle": "¿Tienes alguna duda? Escríbenos y te contestaremos en breve.",
-    "localizacion_encuentranos": "Encuéntranos"
+    "localizacion_title": "Harremanetarako",
+    "localizacion_subtitle": "Zalantzarik? Idatz iezaiguzu eta laster jarriko gara harremanetan zurekin",
+    "localizacion_encuentranos": "Gure kokapena"
 }

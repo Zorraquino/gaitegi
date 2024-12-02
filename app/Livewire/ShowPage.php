@@ -14,8 +14,6 @@ class ShowPage extends Component
     private $slugMaps = [
         'es' => [
             '' => 'inicio',
-            'inicio' => 'inicio',
-            'contacto' => 'contacto',
             'naves' => 'naves',
             'oficinas' => 'oficinas',
             'modulos' => 'modulos',
@@ -23,12 +21,10 @@ class ShowPage extends Component
         ],
         'eu' => [
             '' => 'inicio',
-            'hasiera' => 'inicio',
-            'harremanetan' => 'contacto',
-            'naves' => 'naves',
-            'oficinas' => 'oficinas',
-            'modulos' => 'modulos',
-            'localizacion' => 'localizacion'
+            'nabeak' => 'naves',
+            'bulegoak' => 'oficinas',
+            'moduloak' => 'modulos',
+            'kokapena' => 'localizacion'
         ]
     ];
     
@@ -44,6 +40,9 @@ class ShowPage extends Component
 
     public function render()
     {
+        if (isset($this->slugMaps[$this->locale][$this->slug])) {
+            $this->slug = $this->slugMaps[$this->locale][$this->slug];
+        }
         $view = 'livewire.' . $this->slug;
         
         if (view()->exists($view)) {

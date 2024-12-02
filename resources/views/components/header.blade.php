@@ -6,8 +6,8 @@
 
     <div class="h-full flex flex-row items-center justify-center gap-4 pr-4 tablet:pr-0">
         <nav class="flex flex-row divide-x divide-gaitegi-originals-black">
-            <a class="px-2 leading-none {{ (request()->segment(1) === 'es') ? 'font-bold' : '' }}" href="{{ url('/') }}/es/{{request()->segment(2)}}">ES</a>
-            <a class="px-2 leading-none {{ (request()->segment(1) === 'eu') ? 'font-bold' : '' }}" href="{{ url('/') }}/eu/{{request()->segment(2)}}">EU</a>
+            <a class="px-2 leading-none {{ (request()->segment(1) === 'es') ? 'font-bold' : '' }}" href="{{ url('/') }}/es/">ES</a>
+            <a class="px-2 leading-none {{ (request()->segment(1) === 'eu') ? 'font-bold' : '' }}" href="{{ url('/') }}/eu/">EU</a>
         </nav>
         <a  href="tel:555646464" class="hidden tablet:flex gap-4 font-funnel text-body-xl bg-gaitegi-originals-red text-gaitegi-originals-white hover:bg-gaitegi-originals-red/75 cursor-pointer transition-all w-full h-full items-center justify-center px-16">
             {{ __('llamanos') }}
