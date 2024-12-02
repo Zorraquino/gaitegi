@@ -26,6 +26,8 @@
     "modulos_route": "modulos",
 
     "llamanos": "Llámanos",
+    "consultanos": "¡Consúltanos!",
+    "consultanos_href": "localizacion",
 
     "form_title": "¿Tienes alguna duda?",
     "form_name_ph": "Nombre",

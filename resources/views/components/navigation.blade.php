@@ -38,8 +38,9 @@
     </ul>
 </nav>
 
-<div id="llamanos" class="block tablet:hidden z-20 fixed bottom-0 w-full">
-    <a class="flex font-funnel text-body-l bg-gaitegi-originals-red text-gaitegi-originals-white w-full items-center justify-center p-10">
+<div id="llamanos" class="block tablet:hidden z-20 fixed bottom-0 w-full cursor-pointer">
+    <a href="tel:555646464" class="flex gap-4 font-funnel text-body-l bg-gaitegi-originals-red text-gaitegi-originals-white hover:bg-gaitegi-originals-red/75 w-full items-center justify-center p-10">
         {{ __('llamanos') }}
+        {!! file_get_contents('images/phone.svg') !!}
     </a>
 </div>

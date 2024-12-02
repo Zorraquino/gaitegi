@@ -1,4 +1,4 @@
-<div id="contact" class="col-span-12 tablet:col-span-6">
+<div id="contact" class="col-span-12 tablet:col-span-6 h-full max-h-[346px]">
 
     <form wire:submit.prevent="submit" class="h-full">
 
@@ -45,7 +45,7 @@
                         <label for="privacyPolicy" class="font-funnel text-body-s">{!! __('form_rgpd') !!}</label>
                         @error('privacyPolicy') <span class="text-red-500 absolute text-[10px] top-[4px] left-[16px]">{{ $message }}</span> @enderror
                     </div>
-                    <button type="submit" class="w-full px-8 py-4 font-funnel bg-gaitegi-originals-red text-gaitegi-originals-white hover:bg-gaitegi-originals-red/75 transition-all">{{ __('form_submit') }}</button>
+                    <button type="submit" class="w-full flex gap-4 items-center justify-center px-8 py-4 font-funnel bg-gaitegi-originals-red text-gaitegi-originals-white hover:bg-gaitegi-originals-red/75 transition-all">{{ __('form_submit') }}{!! file_get_contents('images/mail.svg') !!}</button>
                 </div>
             </div>
 

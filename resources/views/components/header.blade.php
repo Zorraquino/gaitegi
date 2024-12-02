@@ -9,15 +9,12 @@
             <a class="px-2 leading-none {{ (request()->segment(1) === 'es') ? 'font-bold' : '' }}" href="{{ url('/') }}/es/{{request()->segment(2)}}">ES</a>
             <a class="px-2 leading-none {{ (request()->segment(1) === 'eu') ? 'font-bold' : '' }}" href="{{ url('/') }}/eu/{{request()->segment(2)}}">EU</a>
         </nav>
-        <a class="hidden tablet:flex font-funnel text-body-xl bg-gaitegi-originals-red text-gaitegi-originals-white w-full h-full items-center justify-center px-16">
+        <a  href="tel:555646464" class="hidden tablet:flex gap-4 font-funnel text-body-xl bg-gaitegi-originals-red text-gaitegi-originals-white hover:bg-gaitegi-originals-red/75 cursor-pointer transition-all w-full h-full items-center justify-center px-16">
             {{ __('llamanos') }}
+            {!! file_get_contents('images/phone.svg') !!}
         </a>
         <button id="toggleMenu" class="flex tablet:hidden p-2 border border-solid border-gaitegi-originals-black">
-            <svg class="cursor-pointer pointer-events-none" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M3 12H21" stroke="#131213" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M3 6H21" stroke="#131213" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M3 18H21" stroke="#131213" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
+            {!! file_get_contents('images/hamburger.svg') !!}
         </button>
     </div>
 
