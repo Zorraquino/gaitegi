@@ -26,7 +26,7 @@
     <div class="col-span-12 flex flex-col laptop:col-span-6 divide-y divide-gaitegi-originals-black border-l-[0.5px] border-solid border-gaitegi-originals-black order-1 laptop:order-2">
     
         <div id="images" class="w-full h-[320px] grow max-h-[380px] tablet:h-full col-span-12 tablet:col-span-6" styles="view-transition-name: image-container">
-            <img alt="naves_industriales_gaitegi" style="view-transition-name: image-content" class="w-full h-full object-cover" src="{{ asset('images/naves.jpg') }}"/>
+            <img alt="naves_industriales_gaitegi" style="view-transition-name: image-content" class="w-full h-full object-cover" src="{{ asset('images/naves_image.jpg') }}"/>
         </div>
 
         <div class="hidden laptop:block h-auto col-span-12 tablet:col-span-6 ">
