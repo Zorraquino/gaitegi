@@ -6,7 +6,7 @@
         </div>
         <div id="information" class="grow flex flex-col px-4 py-10 tablet:p-8 overflow-auto">
             <p class="pb-8">{!! __('modulos_p1') !!}</p>
-            <div class="grid grid-cols-4 gap-x-6 gap-y-6 mb-8">
+            <div class="grid grid-cols-4 gap-x-6 gap-y-6 mb-0">
                 @foreach(__('modulosCaracteristicas') as $key => $item)
                     <span class="col-span-4 flex gap-2"><span class="w-6">{!! file_get_contents('images/package.svg') !!}</span>{!! $item['text'] !!}</span>
                 @endforeach
