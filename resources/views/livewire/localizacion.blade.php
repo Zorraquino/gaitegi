@@ -4,7 +4,7 @@
             <h1 class="font-funnel text-title-m tablet:text-title-xl !font-bold">{!! __('localizacion_title') !!}</h1>
             <span class="text-body-m">{!! __('localizacion_subtitle') !!}</span>
             <div class="flex flex-wrap justify-start gap-8 pt-8">
-                <a href="" class="font-funnel text-body-m text-current text-center flex items-center justify-center py-2 px-8 border border-solid border-gaitegi-originals-black hover:bg-gaitegi-originals-black hover:text-gaitegi-originals-white transition-all">
+                <a href="https://maps.app.goo.gl/34HfTMhM2Rym5BfC8" target="_blank" class="font-funnel text-body-m text-current text-center flex items-center justify-center py-2 px-8 border border-solid border-gaitegi-originals-black hover:bg-gaitegi-originals-black hover:text-gaitegi-originals-white transition-all">
                     {{__('localizacion_encuentranos')}}
                 </a>
             </div>
