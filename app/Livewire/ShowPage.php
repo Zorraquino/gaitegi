@@ -18,7 +18,9 @@ class ShowPage extends Component
             'oficinas' => 'oficinas',
             'modulos' => 'modulos',
             'localizacion' => 'localizacion',
-            'aviso-legal' => 'legal'
+            'aviso-legal' => 'legal',
+            'politica-privacidad' => 'privacidad',
+            'politica-cookies' => 'cookies'
         ],
         'eu' => [
             '' => 'inicio',
@@ -26,7 +28,9 @@ class ShowPage extends Component
             'bulegoak' => 'oficinas',
             'moduloak' => 'modulos',
             'kokapena' => 'localizacion',
-            'lege-oharra' => 'legal'
+            'lege-oharra' => 'legal',
+            'pribatutasun-politika' => 'privacidad',
+            'cookie-politika' => 'cookies'
         ]
     ];
     
@@ -48,9 +52,10 @@ class ShowPage extends Component
         $view = 'livewire.' . $this->slug;
         
         if (view()->exists($view)) {
-            return view($view);
+            app()->instance('pageName', $this->slug);
+            return view($view, ['pageName' => $this->slug]);
         }
         
-        return view('livewire.404');
+        return view('livewire.404', ['pageName' => '404']);
     }
 }

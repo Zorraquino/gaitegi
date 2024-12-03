@@ -4,7 +4,7 @@
 
 <title>Gaitegi - {{$slot}}</title>
 
-<meta name="description" content="Gaitegi - {{__('home')}}">
+<meta name="description" content="Gaitegi - {{$slot}}">
 <meta name="author" content="Gaitegi">
 <meta name="robots" content="index, follow">
 @if (request()->is('es/modulos'))

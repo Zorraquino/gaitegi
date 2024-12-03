@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
-        <x-head>{{__('home')}}</x-head>
+        <x-head>{{ __(app('pageName')) }}</x-head>
+        <title>{{ __(app('pageName')) }}</title>
     </head>
     <body class="relative h-screen flex flex-col justify-between selection:bg-gaitegi-originals-red selection:text-gaitegi-originals-white">
 
