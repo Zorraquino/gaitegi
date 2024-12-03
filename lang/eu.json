@@ -41,7 +41,7 @@
     "form_phone_ph": "*Telefonoa",
     "form_email_ph": "*Emaila",
     "form_comentarios_ph": "Irukinak",
-    "form_rgpd": "*Irakurri dut eta onartzen dut <a class='text-gaitegi-originals-blue font-bold' href='#' target='_blank'>pribatutasun-politika.</a>",
+    "form_rgpd": "*Irakurri dut eta onartzen dut <a class='text-gaitegi-originals-blue font-bold' href='/eu/pribatutasun-politika' target='_blank'>pribatutasun-politika.</a>",
     "form_submit": "Kontsulta gaitzazu!",
     "form_success": "Eskaera bidali da arrakastaz. Jarri gurekin harremanetan.",
     "form_error": "Arazo bat gertatu da zure eskaera bidaltzean. Arazoak jarraitzen badu, deitu eta lagunduko dizugu.",
