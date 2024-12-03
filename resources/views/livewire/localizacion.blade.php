@@ -9,7 +9,9 @@
                 </a>
             </div>
         </div>
-        <livewire:contact-form />
+        <div class="mb-[96px]">
+            <livewire:contact-form />
+        </div>
     </div>
     <div wire:ignore class="col-span-12 laptop:col-span-6 divide-y divide-gaitegi-originals-black border-l-[0.5px] border-solid border-gaitegi-originals-black order-1 laptop:order-2">
         <div id="map" class="w-full h-[320px] laptop:h-full"></div>
