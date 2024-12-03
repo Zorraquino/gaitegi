@@ -9,7 +9,7 @@
             <a class="px-2 leading-none {{ (request()->segment(1) === 'es') || (request()->segment(1) == '') ? 'font-bold' : '' }}" href="{{ url('/') }}/es/">ES</a>
             <a class="px-2 leading-none {{ (request()->segment(1) === 'eu') ? 'font-bold' : '' }}" href="{{ url('/') }}/eu/">EU</a>
         </nav>
-        <a  href="tel:555646464" class="hidden laptop:flex gap-4 font-funnel text-body-xl bg-gaitegi-originals-red text-gaitegi-originals-white hover:bg-gaitegi-originals-red/75 cursor-pointer transition-all w-full h-full items-center justify-center px-16">
+        <a  href="tel:944790369" class="hidden laptop:flex gap-4 font-funnel text-body-xl bg-gaitegi-originals-red text-gaitegi-originals-white hover:bg-gaitegi-originals-red/75 cursor-pointer transition-all w-full h-full items-center justify-center px-16">
             {{ __('llamanos') }}
             {!! file_get_contents('images/phone.svg') !!}
         </a>
