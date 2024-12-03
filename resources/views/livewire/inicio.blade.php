@@ -18,7 +18,7 @@
                 </a>
             </div>
         </div>
-        <div id="information" class="grow p-4 tablet:p-8">
+        <div id="information" class="grow flex flex-col px-4 py-10 tablet:p-8 overflow-auto">
             <p class="pb-8 font-light">{!! __('home_p1') !!}</p>
             <p class="pb-8 font-light">{!! __('home_p2') !!}</p>
             <p class="font-light">{!! __('home_p3') !!}</p>
@@ -26,7 +26,7 @@
     </div>
     <div class="col-span-12 laptop:col-span-6 divide-y divide-gaitegi-originals-black order-1 laptop:order-2">
     
-        <div id="images" class="w-full h-[320px] tablet:h-full" styles="view-transition-name: image-container">
+        <div id="images" class="w-full h-[240px] tablet:h-full" styles="view-transition-name: image-container">
             <img alt="naves_industriales_gaitegi" style="view-transition-name: image-content" class="w-full h-full object-cover" src="{{ asset('images/home.jpg') }}"/>
         </div>
 

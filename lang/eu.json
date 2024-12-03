@@ -68,6 +68,12 @@
             "value": "Oficinas"
         }
     ],
+    "name.error": "Izena beharrezkoa da.",
+    "email.error": "Emaila baliozko helbide bat izan behar da.",
+    "message.error": "Mezua beharrezkoa da.",
+    "phone.error": "Telefonoa beharrezkoa da.",
+    "selection.error": "Aukera bat hautatu behar duzu.",
+    "privacyPolicy.error": "Pribatutasun-politika onartu behar duzu.",
     
     "config_cookies": "Cookie-ak konfiguratu",
     "aviso_legal": "Lege oharra",
@@ -81,12 +87,50 @@
     "modulos_title": "Moduloak",
     "modulos_subtitle": "4.000 metro koadro baino gehiago lau solarutan.",
     "modulos_p1": "4.000 metro koadro baino gehiagoko erakin batean ditugu bulegoak eta moduluak alokatzeko, lau solairutan. Bulego eta moduluetan bana daitezke.",
-    "modulos_p2": "Errepideko lehen lerroan.<br>A-8/AP-8 eta AP-68 autobideen lotunetik 900 metrora.<br>Bizkaibuseko geltokitik 50 metrora.<br>Etorkizuneko metro-geltokitik 250m-ra.<br>Noranzko aldaketa 250m-ra, bi norabideetan.<br>Bilbotik 8 minutura.",
+    "modulosCaracteristicas": [
+        {
+            "text": "Errepideko lehen lerroan."
+        },
+        {
+            "text": "A-8/AP-8 eta AP-68 autobideen lotunetik 900 metrora."
+        },
+        {
+            "text": "Bizkaibuseko geltokitik 50 metrora."
+        },
+        {
+            "text": "Etorkizuneko metro-geltokitik 250m-ra."
+        },
+        {
+            "text": "Noranzko aldaketa 250m-ra, bi norabideetan."
+        },
+        {
+            "text": "Bilbotik 8 minutura."
+        }
+    ],
     
     "oficinas_title": "Bulegoak",
     "oficinas_subtitle": "4.000 metro koadro baino gehiago lau solarutan.",
     "oficinas_p1": "4.000 metro koadro baino gehiagoko erakin batean ditugu bulegoak eta moduluak alokatzeko, lau solairutan. Bulego eta moduluetan bana daitezke",
-    "oficinas_p2": "Errepideko lehen lerroan.<br>A-8/AP-8 eta AP-68 autobideen lotunetik 900 metrora.<br>Bizkaibuseko geltokitik 50 metrora.<br>Etorkizuneko metro-geltokitik 250m-ra.<br>Noranzko aldaketa 250m-ra, bi norabideetan.<br>Bilbotik 8 minutura.",
+    "oficinasCaracteristicas": [
+        {
+            "text": "Errepideko lehen lerroan."
+        },
+        {
+            "text": "A-8/AP-8 eta AP-68 autobideen lotunetik 900 metrora."
+        },
+        {
+            "text": "Bizkaibuseko geltokitik 50 metrora."
+        },
+        {
+            "text": "Etorkizuneko metro-geltokitik 250m-ra."
+        },
+        {
+            "text": "Noranzko aldaketa 250m-ra, bi norabideetan."
+        },
+        {
+            "text": "Bilbotik 8 minutura."
+        }
+    ],
 
     "naves_title": "Industria-nabeak alokairuan",
     "naves_subtitle": "2.000 eta 6.000 metro koadro bitarteko industria-nabe eta bulegoen alokairua",

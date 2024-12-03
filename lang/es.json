@@ -68,6 +68,12 @@
             "value": "Oficinas"
         }
     ],
+    "name.error": "El nombre es obligatorio.",
+    "email.error": "El correo electrónico debe ser una dirección válida.",
+    "message.error": "El mensaje es obligatorio.",
+    "phone.error": "El teléfono es obligatorio.",
+    "selection.error": "Debe seleccionar una opción.",
+    "privacyPolicy.error": "Debe aceptar la política de privacidad.",
     
     "config_cookies": "Configurar Cookies",
     "aviso_legal": "Aviso legal",
@@ -81,12 +87,50 @@
     "modulos_title": "Módulos",
     "modulos_subtitle": "Desde 4.000 m² divisibles en 4 plantas.",
     "modulos_p1": "Alquiler de oficinas y módulos en un edificio de más de 4.000 m² en cuatro plantas, divisibles tanto en módulos como en oficinas.",
-    "modulos_p2": "Parking exclusivo de más de 2.300 m².<br>Primera Línea de carretera N-634<br>A 900 m enlace autopistas A-8 y AP-68.<br>A 50 m parada Bizkaibus.<br>A 250 m futura parada metro.<br>Cambio de sentido 250 m ambas direcciones.<br>A 8 min de Bilbao.",
+    "modulosCaracteristicas": [
+        {
+            "text": "Parking exclusivo de más de 2.300 m²."
+        },
+        {
+            "text": "Primera Línea de carretera N-634"
+        },
+        {
+            "text": "A 900 m enlace autopistas A-8 y AP-68."
+        },
+        {
+            "text": "A 50 m parada Bizkaibus."
+        },
+        {
+            "text": "A 250 m futura parada metro."
+        },
+        {
+            "text": "Cambio de sentido 250 m ambas direcciones.<br>A 8 min de Bilbao."
+        }
+    ],
     
     "oficinas_title": "Oficinas",
     "oficinas_subtitle": "Desde 4.000 m² divisibles en 4 plantas",
     "oficinas_p1": "Alquiler de oficinas y módulos en un edificio de <span class='font-bold'>más de 4.000 m²</span> en cuatro plantas, divisibles tanto en módulos como en oficinas.",
-    "oficinas_p2": "Parking exclusivo de más de 2.300 m².<br>Primera Línea de carretera N-634<br>A 900 m enlace autopistas A-8 y AP-68.<br>A 50 m parada Bizkaibus.<br>A 250 m futura parada metro.<br>Cambio de sentido 250 m ambas direcciones.<br>A 8 min de Bilbao.",
+    "oficinasCaracteristicas": [
+        {
+            "text": "Parking exclusivo de más de 2.300 m²."
+        },
+        {
+            "text": "Primera Línea de carretera N-634"
+        },
+        {
+            "text": "A 900 m enlace autopistas A-8 y AP-68."
+        },
+        {
+            "text": "A 50 m parada Bizkaibus."
+        },
+        {
+            "text": "A 250 m futura parada metro."
+        },
+        {
+            "text": "Cambio de sentido 250 m ambas direcciones.<br>A 8 min de Bilbao."
+        }
+    ],
 
     "naves_title": "Naves en alquiler",
     "naves_subtitle": "Desde 2.000 m² a 6.000 m² de planta, con oficinas.",

@@ -16,9 +16,7 @@
         <div class="flex flex-col laptop:hidden pb-6">
             <x-footer></x-footer>
         </div>
-        @else
-        <div class="block laptop:hidden pb-[108px]"></div>
-        @endif 
+        @endif
 
         <x-navigation></x-navigation>
 

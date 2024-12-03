@@ -5,7 +5,7 @@
     </a>
     <div class="flex flex-col gap-4 col-span-1 p-8 bg-gaitegi-originals-white text-gaitegi-originals-black">
         <span class="text-body-xs">2024 Gaitegi SL</span> 
-        <a href="#" class="text-body-xs underline">{{__('aviso_legal')}}</a>
+        <a href="{{ url('/') }}/{{app()->getLocale()}}/{{__('legal_route')}}" class="text-body-xs underline">{{__('aviso_legal')}}</a>
         <button href="" class="text-body-xs underline h-full" data-cc="show-preferencesModal">{{__('config_cookies')}}</button>
     </div>
 </footer>

@@ -15,9 +15,9 @@ class ContactForm extends Component
     public $privacyPolicy;
 
     protected $rules = [
-        'name' => 'required|min:3',
+        'name' => 'required',
         'email' => 'required|email',
-        'message' => 'required|min:10',
+        'message' => 'required',
         'phone' => 'required',
         'selection' => 'required',
         'privacyPolicy' => 'accepted'
