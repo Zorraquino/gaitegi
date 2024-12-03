@@ -80,7 +80,7 @@
     "aviso_legal": "Lege oharra",
     
     "home_title": "Industria-nabeen alokairua",
-    "home_subtitle": "2.000 eta 6.000 metro koadro bitarteko industria-nabe eta bulegoen alokairua.",
+    "home_subtitle": "2.000 eta 6.000 metro koadro bitarteko industria-nabe eta&nbsp;bulegoen&nbsp;alokairua.",
     "home_p1": "Industria-nabe bikainak, <span class='font-bold'>erabilera logistikorako eta hiriko ile-banaketarako prestatuak</span>. Kokapen pribilegiatuan daude, eta barruko maniobra-espazio pribatu zabalak dituzte.",
     "home_p2": "<span class='font-bold'>Pabiloiak Galdakaon (Bizkaia)</span> daude, Bilbotik 8 km-ra, eta komunikazio-korapilo estrategiko batean daude, 900 metro baino gutxiagora baitaude AP-8 (Santander-Bilbo-Behobia) eta AP-68 (Gasteiz-Burgos-Madril) autobideen lotunetik.",
     "home_p3": "<span class='font-bold'>Merkataritza-aukera handiak</span> dituzten nabeak. Errepidearen lehen lerroan daude. Erakusleiho zabalak dituzte, <span class='font-bold'>Bengoetxeko etorkizuneko metro-geltokitik metro batzuetara.</span>",
@@ -107,7 +107,7 @@
     ],
     
     "oficinas_title": "Bulegoak",
-    "oficinas_subtitle": "4.000 metro koadro baino gehiago lau solarutan.",
+    "oficinas_subtitle": "4.000 metro koadro baino gehiago lau&nbsp;solarutan.",
     "oficinas_p1": "4.000 metro koadro baino gehiagoko erakin batean ditugu bulegoak eta moduluak alokatzeko, lau solairutan. Bulego eta moduluetan bana daitezke",
     "oficinasCaracteristicas": [
         {
@@ -128,7 +128,7 @@
     ],
 
     "naves_title": "Industria-nabeak alokairuan",
-    "naves_subtitle": "2.000 eta 6.000 metro koadro bitarteko industria-nabe eta bulegoen alokairua",
+    "naves_subtitle": "2.000 eta 6.000 metro koadro bitarteko industria-nabe eta bulegoen&nbsp;alokairua",
     "naves_p1": "",
     "naves_p2": "",
     "navesCaracteristicas": [

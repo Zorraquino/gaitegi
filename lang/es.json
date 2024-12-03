@@ -80,13 +80,13 @@
     "aviso_legal": "Aviso legal",
     
     "home_title": "Alquiler de&nbsp;naves industriales",
-    "home_subtitle": "Desde 2.000 m² a 6.000 m² de planta, con oficinas.",
+    "home_subtitle": "Desde 2.000 m² a 6.000 m² de planta, con&nbsp;oficinas.",
     "home_p1": "Magnificas Naves preparadas para uso como <span class='font-bold'>centro logístico y distribución capilar</span>, al localizarse en una privilegiada situación y disponer de amplios espacios de maniobra interior privados.",
     "home_p2": "<span class='font-bold'>Pabellones</span> ubicados en el término municipal de <span class='font-bold'>Galdakao</span>, Vizcaya a 8 Km de Bilbao y situadas en un nudo estratégico de comunicaciones al estar a menos de 900 m del enlace de autopistas A-8 (Bilbao - Behobia), AP-68 (Vitoria, Burgos, Madrid) y N-634.",
     "home_p3": "Naves con grandes posibilidades <span class='font-bold'>comerciales</span>. Situadas en primera línea de carretera. Disponen de amplios escaparates a unos metros de la futura <span class='font-bold'>parada de metro</span> de Bengoetxe.",
     
     "modulos_title": "Módulos",
-    "modulos_subtitle": "Desde 4.000 m² divisibles en 4 plantas.",
+    "modulos_subtitle": "Desde 4.000 m² divisibles en 4&nbsp;plantas.",
     "modulos_p1": "Alquiler de oficinas y módulos en un edificio de <span class='font-bold'>más de 4.000 m²</span> en cuatro plantas, divisibles tanto en módulos como en oficinas.",
     "modulosCaracteristicas": [
         {
@@ -107,7 +107,7 @@
     ],
     
     "oficinas_title": "Oficinas",
-    "oficinas_subtitle": "Desde 4.000 m² divisibles en 4 plantas",
+    "oficinas_subtitle": "Desde 4.000 m² divisibles en 4&nbsp;plantas",
     "oficinas_p1": "Alquiler de oficinas y módulos en un edificio de <span class='font-bold'>más de 4.000 m²</span> en cuatro plantas, divisibles tanto en módulos como en oficinas.",
     "oficinasCaracteristicas": [
         {
@@ -128,7 +128,7 @@
     ],
 
     "naves_title": "Naves en alquiler",
-    "naves_subtitle": "Desde 2.000 m² a 6.000 m² de planta, con oficinas.",
+    "naves_subtitle": "Desde 2.000 m² a 6.000 m² de planta, con&nbsp;oficinas.",
     "naves_p1": "",
     "naves_p2": "",
     "navesCaracteristicas": [
