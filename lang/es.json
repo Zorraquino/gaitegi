@@ -41,6 +41,8 @@
     "form_comentarios_ph": "Comentarios",
     "form_rgpd": "He leído y acepto la <a class='text-gaitegi-originals-blue font-bold' href='#' target='_blank'>política de privacidad.</a>",
     "form_submit": "¡Consúltanos!",
+    "form_success": "Solicitud enviada con éxito. Nos pondremos en contacto contigo.",
+    "form_error": "Ha ocurrido un problema al enviar tu solicitud. Si persiste, llámanos y te atenderemos.",
     "form_interesado": "Interesado en:",
     "form_interesado_opciones": [
         {

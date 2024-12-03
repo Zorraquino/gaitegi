@@ -2,9 +2,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Nuevo Mensaje</title>
+    <title>Nueva solicitud a través de la web</title>
 </head>
 <body>
+    <img src="{{ asset('images/gaitegi__logo.svg') }}"/>
     <p>{{ $who }}</p>
     <p>{{ $email }}</p>
     <p>{{ $phone }}</p>
