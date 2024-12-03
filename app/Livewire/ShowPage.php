@@ -19,8 +19,7 @@ class ShowPage extends Component
             'modulos' => 'modulos',
             'localizacion' => 'localizacion',
             'aviso-legal' => 'legal',
-            'politica-privacidad' => 'privacidad',
-            'politica-cookies' => 'cookies'
+            'politica-privacidad' => 'privacidad'
         ],
         'eu' => [
             '' => 'inicio',
@@ -29,8 +28,7 @@ class ShowPage extends Component
             'moduloak' => 'modulos',
             'kokapena' => 'localizacion',
             'lege-oharra' => 'legal',
-            'pribatutasun-politika' => 'privacidad',
-            'cookie-politika' => 'cookies'
+            'pribatutasun-politika' => 'privacidad'
         ]
     ];
     
