@@ -7,6 +7,14 @@
 <meta name="description" content="Gaitegi - {{$slot}}">
 <meta name="author" content="Gaitegi">
 <meta name="robots" content="index, follow">
+
+<link rel="icon" href="{{ asset('images/favicon.ico') }}" type="image/x-icon">
+<meta property="og:title" content="Gaitegi - {{$slot}}">
+<meta property="og:description" content="Gaitegi - {{__('og_description')}}">
+<meta property="og:image" content="{{ asset('images/og/og_' . request()->segment(2) . '.jpg') }}">
+<meta property="og:url" content="{{ url()->current() }}">
+<meta property="og:type" content="website">
+
 @if (request()->is('es/modulos'))
     <link rel="canonical" href="{{ url('oficinas') }}" />
 @elseif (request()->is('eu/moduloak'))

@@ -27,7 +27,9 @@
     <div class="col-span-12 laptop:col-span-6 divide-y divide-gaitegi-originals-black order-1 laptop:order-2">
     
         <div id="images" class="w-full h-[240px] tablet:h-full z-0" styles="view-transition-name: image-container">
-            <img alt="naves_industriales_gaitegi"  class="w-full h-full object-cover z-0" src="{{ asset('images/home.jpg') }}"/>
+            <video autoplay muted loop class="w-full h-full object-cover z-0">
+                <source src="{{ asset('video/gaitegi_video.mp4') }}" type="video/mp4">
+            </video>
         </div>
 
     </div>
