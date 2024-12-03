@@ -18,7 +18,7 @@
                 </a>
             </div>
         </div>
-        <div id="information" class="grow flex flex-col px-4 py-10 tablet:p-8 overflow-auto">
+        <div id="information" class="grow flex flex-col px-4 py-10 tablet:p-8 overflow-auto mb-[96px]">
             <p class="pb-8 font-light">{!! __('home_p1') !!}</p>
             <p class="pb-8 font-light">{!! __('home_p2') !!}</p>
             <p class="font-light">{!! __('home_p3') !!}</p>
