@@ -10,7 +10,7 @@
             <a class="px-2 leading-none {{ (request()->segment(1) === 'eu') ? 'font-bold' : '' }}" href="{{ url('/') }}/eu/">EU</a>
         </nav>
         <a  href="tel:944790369" class="hidden laptop:flex gap-4 font-funnel text-body-xl bg-gaitegi-originals-red text-gaitegi-originals-white hover:bg-gaitegi-originals-red/75 cursor-pointer transition-all w-full h-full items-center justify-center px-16">
-            {{ __('llamanos') }}
+            {!! __('llamanos') !!}
             {!! file_get_contents('images/phone.svg') !!}
         </a>
         <button id="toggleMenu" class="flex laptop:hidden p-2 border border-solid border-gaitegi-originals-black">

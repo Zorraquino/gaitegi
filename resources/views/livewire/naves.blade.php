@@ -1,7 +1,7 @@
 <div class="h-full grid grid-cols-12">
     <div class="col-span-12 laptop:col-span-6 flex flex-col divide-y divide-gaitegi-originals-black border-r-[0.5px] border-solid border-gaitegi-originals-black order-2 laptop:order-1">
         <div id="title" class="p-4 tablet:p-8">
-            <h1 class="font-funnel text-title-m tablet:text-title-xl !font-bold">{{ __('naves_title') }}</h1>
+            <h1 class="font-funnel text-title-m tablet:text-title-xl !font-bold">{!! __('naves_title') !!}</h1>
             <span class="text-body-l">{!! __('naves_subtitle') !!}</span>
         </div>
         <div id="information" class="grow flex flex-col px-4 py-10 tablet:p-8 overflow-auto mb-8">
@@ -10,7 +10,7 @@
                     <span class="col-span-4 tablet:col-span-2 flex gap-2"><span class="w-6">{!! file_get_contents('images/warehouse.svg') !!}</span>{!! $item['text'] !!}</span>
                 @endforeach
             </div>
-            <h3 class="font-funnel font-bold text-body-l">{{ __('navesLocalizacion_title') }}</h3>
+            <h3 class="font-funnel font-bold text-body-l">{!! __('navesLocalizacion_title') !!}</h3>
             <div class="flex flex-col justify-start flex-wrap gap-2 pt-2">
                 <ul class="list-disc pl-4">
                 @foreach(__('navesLocalizacion') as $key => $item)
@@ -20,7 +20,7 @@
             </div>
             <div class="pt-8">
                 <a href="{{ url('/') }}/{{app()->getLocale()}}/{{__('consultanos_href')}}" class="w-fit flex gap-4 font-funnel text-body-l bg-gaitegi-originals-red text-gaitegi-originals-white hover:bg-gaitegi-originals-red/75 items-center justify-center px-8 py-4">
-                    {{ __('consultanos') }}
+                    {!! __('consultanos') !!}
                     {!! file_get_contents('images/mail.svg') !!}
                 </a>
             </div>

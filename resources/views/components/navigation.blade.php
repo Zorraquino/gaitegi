@@ -40,7 +40,7 @@
 
 <div id="llamanos" class="block laptop:hidden z-20 fixed bottom-0 w-full cursor-pointer">
     <a href="tel:944790369" class="flex gap-4 font-funnel text-body-l bg-gaitegi-originals-red text-gaitegi-originals-white hover:bg-gaitegi-originals-red/75 w-full items-center justify-center p-10">
-        {{ __('llamanos') }}
+        {!! __('llamanos') !!}
         {!! file_get_contents('images/phone.svg') !!}
     </a>
 </div>
