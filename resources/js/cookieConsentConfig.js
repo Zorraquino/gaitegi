@@ -48,7 +48,7 @@ export function initCookieConsent() {
                                 linkedCategory: 'necessary'
                             },
                             {
-                                title: 'Cookie Analitikoak',
+                                title: 'Analitika',
                                 description: 'Cookie hauek erabiltzaileen portaera jarraitzeko eta aztertzeko aukera ematen digute, eta bereziki, bisitak eta trafiko iturriak zenbatzeko, gure gunea ebaluatu eta hobetzeko.',
                                 linkedCategory: 'analytics',
                                 cookieTable: {
@@ -132,7 +132,7 @@ export function initCookieConsent() {
                                 }
                             },
                             {
-                                title: 'Cookies Analíticas',
+                                title: 'Analítica',
                                 description: 'Aunque el sistema de analítica anonimizado implementado en Gaitegi no hace uso de cookies, no registraremos ningún dato de analítica si así lo deseas.',
                                 linkedCategory: 'analytics'
                             }
@@ -188,7 +188,7 @@ export function initCookieConsent() {
                                 }
                             },
                             {
-                                title: 'Analytical Cookies',
+                                title: 'Analítica',
                                 description: 'Although the anonymized analytics system implemented in Gaitegi does not use cookies, we will not record any analytics data if you wish.',
                                 linkedCategory: 'analytics'
                             }
