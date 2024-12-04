@@ -4,7 +4,7 @@
             <h1 class="font-funnel text-title-m tablet:text-title-xl !font-bold">{{ __('modulos_title') }}</h1>
             <span class="text-body-l">{{ __('modulos_subtitle') }}</span>
         </div>
-        <div id="information" class="grow flex flex-col px-4 py-10 tablet:p-8 overflow-auto mb-[96px]">
+        <div id="information" class="grow flex flex-col px-4 py-10 tablet:p-8 overflow-auto mb-8">
             <p class="pb-8">{!! __('modulos_p1') !!}</p>
             <div class="grid grid-cols-4 gap-x-6 gap-y-6 mb-0">
                 @foreach(__('modulosCaracteristicas') as $key => $item)

@@ -1,5 +1,5 @@
 <div class="h-full grid grid-cols-12">
-    <div class="col-span-12 laptop:col-span-6 flex flex-col divide-y divide-gaitegi-originals-black border-b-[0.5px] laptop:border-r-[0.5px] border-solid border-gaitegi-originals-black order-2 laptop:order-2">
+    <div class="col-span-12 laptop:col-span-6 flex flex-col divide-y divide-gaitegi-originals-black tablet:border-b-[0.5px] laptop:border-r-[0.5px] border-solid border-gaitegi-originals-black order-2 laptop:order-2">
         <div id="title" class="p-4 tablet:p-8">
             <h1 class="font-funnel text-title-m tablet:text-title-xl !font-bold">{!! __('home_title') !!}</h1>
             <span class="text-body-l">{{ __('home_subtitle') }}</span>
@@ -18,7 +18,7 @@
                 </a>
             </div>
         </div>
-        <div id="information" class="grow flex flex-col px-4 py-10 tablet:p-8 overflow-auto mb-[96px]">
+        <div id="information" class="grow flex flex-col px-4 py-10 tablet:p-8 overflow-auto mb-8">
             <p class="pb-8 font-light">{!! __('home_p1') !!}</p>
             <p class="pb-8 font-light">{!! __('home_p2') !!}</p>
             <p class="font-light">{!! __('home_p3') !!}</p>
