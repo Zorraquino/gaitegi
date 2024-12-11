@@ -29,6 +29,15 @@ class ShowPage extends Component
             'kokapena' => 'localizacion',
             'lege-oharra' => 'legal',
             'pribatutasun-politika' => 'privacidad'
+        ],
+        'en' => [
+            '' => 'inicio',
+            'warehouses' => 'naves',
+            'offices' => 'oficinas',
+            'modules' => 'modulos',
+            'location' => 'localizacion',
+            'legal-notice' => 'legal',
+            'privacy-policy' => 'privacidad'
         ]
     ];
     
@@ -37,7 +46,7 @@ class ShowPage extends Component
         $this->slug = $slug ?? 'inicio';
         $this->locale = $locale ?: 'es';
 
-        if (in_array($locale, ['eu', 'es'])) {
+        if (in_array($locale, ['eu', 'es', 'en'])) {
             App::setLocale($locale);
         }
     }

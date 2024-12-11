@@ -188,7 +188,7 @@ export function initCookieConsent() {
                                 }
                             },
                             {
-                                title: 'Analítica',
+                                title: 'Analytics',
                                 description: 'Although the anonymized analytics system implemented in Gaitegi does not use cookies, we will not record any analytics data if you wish.',
                                 linkedCategory: 'analytics'
                             }

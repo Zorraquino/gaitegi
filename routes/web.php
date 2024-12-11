@@ -6,5 +6,5 @@ use App\Http\Controllers\EmailController;
 use App\Livewire\ShowPage;
 
 Route::get('/{locale?}/{slug?}', ShowPage::class)
-    ->where(['locale' => 'eu|es'])
+    ->where(['locale' => 'eu|es|en'])
     ->name('page.show');
