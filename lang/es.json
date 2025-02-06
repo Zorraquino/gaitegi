@@ -83,7 +83,7 @@
     "home_subtitle": "Desde 2.000 m² a 6.000 m² de planta, con&nbsp;oficinas.",
     "home_p1": "Magnificas Naves preparadas para uso como <span class='font-bold'>centro logístico y distribución capilar</span>, al localizarse en una privilegiada situación y disponer de amplios espacios de maniobra interior privados.",
     "home_p2": "<span class='font-bold'>Pabellones</span> ubicados en el término municipal de <span class='font-bold'>Galdakao</span>, Vizcaya a 8 Km de Bilbao y situadas en un nudo estratégico de comunicaciones al estar a menos de 900 m del enlace de autopistas A-8 (Bilbao - Behobia), AP-68 (Vitoria, Burgos, Madrid) y N-634.",
-    "home_p3": "Naves con grandes posibilidades <span class='font-bold'>comerciales</span>. Situadas en primera línea de carretera. Disponen de amplios escaparates a unos metros de la futura <span class='font-bold'>parada de metro</span> de Bengoetxe.",
+    "home_p3": "Naves con grandes posibilidades <span class='font-bold'>comerciales</span>. Situadas en Primera línea de carretera. Disponen de amplios escaparates a unos metros de la futura <span class='font-bold'>parada de metro</span> de Bengoetxe.",
     
     "modulos_title": "Módulos",
     "modulos_subtitle": "Desde 4.000 m² divisibles en 4&nbsp;plantas.",
@@ -93,7 +93,7 @@
             "text": "Parking exclusivo de más de 2.300 m²."
         },
         {
-            "text": "Primera Línea de carretera N-634"
+            "text": "Primera línea de carretera N-634."
         },
         {
             "text": "A 900 m enlace de autopista A-8/AP-8 y AP-68."
@@ -114,7 +114,7 @@
             "text": "Parking exclusivo de más de 2.300 m²."
         },
         {
-            "text": "Primera Línea de carretera N-634"
+            "text": "Primera línea de carretera N-634."
         },
         {
             "text": "A 900 m enlace de autopista A-8/AP-8 y AP-68."
@@ -154,19 +154,19 @@
     "navesLocalizacion_title": "Localización",
     "navesLocalizacion": [
         {
-            "text": "Parking exclusivo de más de 2.300 m<sup>2</sup>"
+            "text": "Parking exclusivo de más de 2.300 m<sup>2</sup>."
         },
         {
-            "text": "Primera línea de carretera N-634"
+            "text": "Primera línea de carretera N-634."
         },
         {
-            "text": "A 900 m del enlace de autopista A-8/AP-8 y AP-68"
+            "text": "A 900 m del enlace de autopista A-8/AP-8 y AP-68."
         },
         {
-            "text": "Cambio de sentido a 250 m en ambas direcciones"
+            "text": "Cambio de sentido a 250 m en ambas direcciones."
         },
         {
-            "text": "A 8 min de Bilbao"
+            "text": "A 8 min de Bilbao."
         }
     ],
 
