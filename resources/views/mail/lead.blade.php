@@ -7,10 +7,10 @@
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
-            color: #fff;
+            color: #333;
             background-color: #f4f4f4;
             margin: 0;
-            padding: 0;
+            padding: 32px 0;
         }
         .container {
             width: 80%;
