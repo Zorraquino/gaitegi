@@ -36,7 +36,8 @@ class LeadGenerated extends Mailable
     {
         return new Envelope(
             from: new Address('info@gaitegi.com', 'Gaitegi'),
-            to: [new Address('gotzon12@gmail.com', 'Gaitegi')],
+            to: [new Address('gaitegibilbao@gmail.com', 'Gaitegi')],
+            bcc: [new Address('bcc@zorraquino.com', 'Zorraquino')],
             subject: 'Nuevo lead generado',
         );
     }
