@@ -1,6 +1,6 @@
 <nav class="z-30 hidden laptop:grid fixed bottom-0 w-full grid-cols-6 items-center bg-[#EEEEEE] border-t border-solid border-gaitegi-originals-black">
     <div class="hidden h-full tablet:flex flex-col col-span-1 p-8 bg-gaitegi-originals-white">
-        <span class="text-body-xs">2024 Gaitegi S.L.</span> 
+        <span class="text-body-xs">{{ date('Y') }} Gaitegi S.L.</span> 
         <a href="{{ url('/') }}/{{app()->getLocale()}}/{{__('legal_route')}}" class="text-body-xs underline">{{__('aviso_legal')}}</a>
     </div>
     
