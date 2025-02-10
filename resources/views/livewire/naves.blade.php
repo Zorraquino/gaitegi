@@ -4,7 +4,7 @@
             <h1 class="font-funnel text-title-m tablet:text-title-xl !font-bold">{!! __('naves_title') !!}</h1>
             <span class="text-body-l">{!! __('naves_subtitle') !!}</span>
         </div>
-        <div id="information" class="grow flex flex-col px-4 py-10 tablet:p-8 overflow-auto mb-8">
+        <div id="information" class="grow flex flex-col px-4 py-10 tablet:p-8 overflow-auto mb-24">
             <div class="grid grid-cols-4 gap-x-6 gap-y-6 tablet:gap-y-6 mb-8">
                 @foreach(__('navesCaracteristicas') as $key => $item)
                     <span class="col-span-4 tablet:col-span-2 flex gap-4 text-balance"><span class="w-6">{!! file_get_contents('images/warehouse.svg') !!}</span>{!! $item['text'] !!}</span>
