@@ -19,6 +19,8 @@
     <link rel="canonical" href="{{ url('oficinas') }}" />
 @elseif (request()->is('eu/moduloak'))
     <link rel="canonical" href="{{ url('bulegoak') }}" />
+@elseif (request()->is('en/modules'))
+    <link rel="canonical" href="{{ url('offices') }}" />
 @else
     <link rel="canonical" href="{{ url()->current() }}" />
 @endif
