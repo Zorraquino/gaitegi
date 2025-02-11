@@ -11,7 +11,7 @@
     <div class="col-span-12 tablet:col-span-6 divide-y divide-gaitegi-originals-black border-l-[0.5px] border-solid border-gaitegi-originals-black">
     
         <div id="images" class="w-full h-full" styles="view-transition-name: image-container">
-            <img  class="w-full h-full object-cover z-0" src="{{ asset('images/test2.jpg') }}"/>
+            <img  class="w-full h-full object-cover z-0" src="{{ asset('images/test2.jpg') }}?v=2"/>
         </div>
 
     </div>

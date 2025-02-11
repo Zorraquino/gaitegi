@@ -22,7 +22,7 @@
     <div class="col-span-12 laptop:col-span-6 divide-y divide-gaitegi-originals-black border-l-[0.5px] border-solid border-gaitegi-originals-black order-1 laptop:order-2">
     
         <div id="images" class="w-full h-[240px] tablet:h-full z-0" styles="view-transition-name: image-container">
-            <img alt="modulos_gaitegi"  class="w-full h-full object-cover z-0" src="{{ asset('images/gaitegi-modulos.jpg') }}"/>
+            <img alt="modulos_gaitegi"  class="w-full h-full object-cover z-0" src="{{ asset('images/gaitegi-modulos.jpg') }}?v=2"/>
         </div>
 
     </div>

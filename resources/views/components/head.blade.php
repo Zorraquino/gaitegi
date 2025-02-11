@@ -11,7 +11,7 @@
 <link rel="icon" href="{{ asset('images/favicon.ico') }}" type="image/x-icon">
 <meta property="og:title" content="Gaitegi - {{$slot}}">
 <meta property="og:description" content="Gaitegi - {{__('og_description')}}">
-<meta property="og:image" content="{{ asset('images/og/og_' . request()->segment(2) . '.jpg') }}">
+<meta property="og:image" content="{{ asset('images/og/og_' . request()->segment(2) . '.jpg') }}?v=2">
 <meta property="og:url" content="{{ url()->current() }}">
 <meta property="og:type" content="website">
 
