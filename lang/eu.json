@@ -109,7 +109,7 @@
     
     "oficinas_title": "Bulegoak",
     "oficinas_subtitle": "4.000 metro koadro baino gehiago lau&nbsp;solarutan.",
-    "oficinas_p1": "4.000 metro koadro baino gehiagoko erakin batean ditugu bulegoak eta moduluak alokatzeko, lau solairutan. Bulego eta moduluetan bana daitezke",
+    "oficinas_p1": "<span class='font-bold'>4.000 metro koadro baino gehiagoko</span> erakin batean ditugu bulegoak eta moduluak alokatzeko, lau solairutan. Bulego eta moduluetan bana daitezke",
     "oficinasCaracteristicas": [
         {
             "text": "2.300 m² baino gehiagoko aparkaleku esklusiboa."
