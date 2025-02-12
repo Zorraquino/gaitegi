@@ -1,4 +1,4 @@
-<div class="h-[calc(100%_+_96px)] grid grid-cols-12">
+<div class="h-full tablet:h-full laptop:h-[calc(100%_+_96px)] grid grid-cols-12">
     <div class="col-span-12 tablet:col-span-6 flex flex-col divide-y divide-gaitegi-originals-black border-r-[0.5px] border-solid border-gaitegi-originals-black">
         <div id="title" class="p-8">
             <h1 class="font-funnel text-title-xl font-bold">Naves en alquiler</h1>

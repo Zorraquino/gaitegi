@@ -4,11 +4,11 @@
         <x-head>{{ __(app('pageName')) }}</x-head>
         <title>{{ __(app('pageName')) }}</title>
     </head>
-    <body class="relative h-screen flex flex-col justify-between selection:bg-gaitegi-originals-red selection:text-gaitegi-originals-white">
+    <body class="relative h-screen flex flex-col justify-start selection:bg-gaitegi-originals-red selection:text-gaitegi-originals-white">
 
         <x-header></x-header>
 
-        <main class="w-full grow mt-12 mini:mt-12 tablet:mt-0">
+        <main class="w-full grow mt-12 mobile:mt-20 tablet:mt-0">
             {{$slot}}
         </main>
 
