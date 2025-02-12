@@ -1,5 +1,5 @@
 <div class="h-full tablet:h-full laptop:h-[calc(100%_+_96px)] grid grid-cols-12">
-    <div class="col-span-12 laptop:col-span-6 flex flex-col divide-y divide-gaitegi-originals-black border-b-[0.5px] laptop:border-r-[0.5px] border-solid border-gaitegi-originals-black order-2 laptop:order-1">
+    <div class="col-span-12 laptop:col-span-6 flex flex-col divide-y divide-gaitegi-originals-black tablet:border-b-[0.5px] laptop:border-r-[0.5px] border-solid border-gaitegi-originals-black order-2 laptop:order-1">
         <div id="title" class="p-4 pt-3 tablet:p-8 tablet:pt-7 flex flex-col gap-6">
             <h1 class="font-funnel text-title-m tablet:text-title-l desktop:text-title-xl !font-bold">{!! __('localizacion_title') !!}</h1>
             <span class="text-body-m">{!! __('localizacion_subtitle') !!}</span>

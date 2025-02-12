@@ -12,11 +12,11 @@
             {{$slot}}
         </main>
 
-        @if (request()->segment(2) !== 'localizacion' && request()->segment(2) !== 'kokapena' && request()->segment(2) !== 'location')
+        {{-- @if (request()->segment(2) !== 'localizacion' && request()->segment(2) !== 'kokapena' && request()->segment(2) !== 'location') --}}
         <div class="flex flex-col laptop:hidden pb-6">
             <x-footer></x-footer>
         </div>
-        @endif
+        {{-- @endif --}}
 
         <x-navigation></x-navigation>
 

@@ -1,6 +1,6 @@
-<div id="contact" class="col-span-12 tablet:col-span-6 h-full max-h-[346px] border-b border-solid border-gaitegi-originals-black">
+<div id="contact" class="col-span-12 tablet:col-span-6 h-full laptop:max-h-[346px] border-b-0 tablet:border-b tablet:border-solid tablet:border-gaitegi-originals-black">
 
-    <form accept-language="{{ app()->getLocale() }}" wire:submit.prevent="submit" class="h-auto laptop:h-full pb-[152px] laptop:pb-0">
+    <form accept-language="{{ app()->getLocale() }}" wire:submit.prevent="submit" class="h-auto laptop:h-full pb-0 laptop:pb-0">
 
         <div class="relative h-full grid grid-cols-4 tablet:grid-cols-4 divide-y divide-gaitegi-originals-black">
             

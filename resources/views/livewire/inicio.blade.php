@@ -1,9 +1,9 @@
 <div class="h-full tablet:h-full laptop:h-[calc(100%_+_96px)] grid grid-cols-12">
     <div class="col-span-12 laptop:col-span-6 flex flex-col divide-y divide-gaitegi-originals-black tablet:border-b-[0.5px] laptop:border-r-[0.5px] border-solid border-gaitegi-originals-black order-2 laptop:order-2">
-        <div id="title" class="p-4 tablet:p-8">
+        <div id="title" class="px-4 pb-10 pt-8 tablet:p-8">
             <h1 class="font-funnel text-title-m tablet:text-title-l desktop:text-title-xl !font-bold">{!! __('home_title') !!}</h1>
             <span class="block text-body-l pt-4">{!! __('home_subtitle') !!}</span>
-            <div class="flex flex-wrap justify-start gap-8 pt-8">
+            <div class="flex flex-wrap justify-start gap-4 laptop:gap-8 pt-4 laptop:pt-8">
                 <a href="/{{app()->getLocale()}}/{!! __('naves_route') !!}" 
                    class="font-funnel text-body-m text-current text-center flex items-center justify-center py-4 px-8 border border-solid border-gaitegi-originals-black hover:bg-gaitegi-originals-black hover:text-gaitegi-originals-white transition-all">
                     {{__('naves')}}
@@ -18,9 +18,9 @@
                 </a>
             </div>
         </div>
-        <div id="information" class="grow flex flex-col px-4 py-10 tablet:p-8 overflow-auto mb-0">
-            <p class="pb-8 font-light">{!! __('home_p1') !!}</p>
-            <p class="pb-8 font-light">{!! __('home_p2') !!}</p>
+        <div id="information" class="grow flex flex-col px-4 pb-10 pt-8 tablet:p-8 overflow-auto mb-0">
+            <p class="pb-4 tablet:pb-8 font-light">{!! __('home_p1') !!}</p>
+            <p class="pb-4 tablet:pb-8 font-light">{!! __('home_p2') !!}</p>
             <p class="font-light">{!! __('home_p3') !!}</p>
         </div>
     </div>
