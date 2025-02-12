@@ -1,18 +1,18 @@
-<div class="h-full grid grid-cols-12">
+<div class="h-[calc(100%_+_96px)] grid grid-cols-12">
     <div class="col-span-12 laptop:col-span-6 flex flex-col divide-y divide-gaitegi-originals-black border-r-[0.5px] border-solid border-gaitegi-originals-black order-2 laptop:order-1">
         <div id="title" class="p-4 tablet:p-8">
-            <h1 class="font-funnel text-title-m tablet:text-title-xl !font-bold">{!! __('naves_title') !!}</h1>
-            <span class="text-body-l">{!! __('naves_subtitle') !!}</span>
+            <h1 class="font-funnel text-title-m tablet:text-title-l desktop:text-title-xl !font-bold">{!! __('naves_title') !!}</h1>
+            <span class="block text-body-l pt-4">{!! __('naves_subtitle') !!}</span>
         </div>
-        <div id="information" class="grow flex flex-col px-4 py-10 tablet:p-8 overflow-auto mb-24">
+        <div id="information" class="grow flex flex-col px-4 py-10 tablet:p-8 overflow-auto mb-12 desktop:mb-0">
             <div class="grid grid-cols-4 gap-x-6 gap-y-6 tablet:gap-y-6 mb-8">
                 @foreach(__('navesCaracteristicas') as $key => $item)
                     <span class="col-span-4 tablet:col-span-2 flex gap-4 text-balance"><span class="w-6">{!! file_get_contents('images/warehouse.svg') !!}</span>{!! $item['text'] !!}</span>
                 @endforeach
             </div>
             <h3 class="font-funnel font-bold text-body-l">{!! __('navesLocalizacion_title') !!}</h3>
-            <div class="flex flex-col justify-start flex-wrap gap-2 pt-2">
-                <ul class="list-disc pl-4">
+            <div class="flex flex-col justify-start flex-wrap gap-2 pt-4">
+                <ul class="list-disc pl-4 flex flex-col gap-y-3">
                 @foreach(__('navesLocalizacion') as $key => $item)
                     <li>{!! $item['text'] !!}</li>
                 @endforeach

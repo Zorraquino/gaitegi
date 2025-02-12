@@ -39,9 +39,9 @@
     "consultanos_href": "location",
 
     "form_title": "Any questions?",
-    "form_name_ph": "Name*",
-    "form_phone_ph": "Phone*",
-    "form_email_ph": "Email*",
+    "form_name_ph": "*Name",
+    "form_phone_ph": "*Phone",
+    "form_email_ph": "*Email",
     "form_comentarios_ph": "Comments",
     "form_rgpd": "*I have read & accepted the <a class='text-gaitegi-originals-blue font-bold' href='/en/privacy-policy' target='_blank'>privacy policy.</a>",
     "form_submit": "Contact Us!",
@@ -82,9 +82,9 @@
     
     "home_title": "Industrial Warehouse Rentals",
     "home_subtitle": "From 2,000 m² to 6,000 m² with office space.",
-    "home_p1": "Magnificent Warehouses Ready for Use as a Logistics and Distribution Hub. These exceptional facilities are strategically located and offer extensive private interior maneuvering spaces, making them ideal for use as a logistics and last-mile distribution center.",
-    "home_p2": "The warehouses are situated in the municipality of Galdakao, Vizcaya, just 8 km from Bilbao. They are located at a key communications hub, less than 900 meters from the highway interchanges for the A-8 (Bilbao-Behobia), AP-68 (Vitoria, Burgos, Madrid), and N-634.",
-    "home_p3": "These warehouses boast significant commercial potential. Positioned on a prime roadside location, they feature expansive storefronts and are just meters away from the future Bengoetxe metro stop.",
+    "home_p1": "Magnificent Warehouses Ready for Use as a <span class='font-bold'>Logistics and Distribution Hub</span>. These exceptional facilities are strategically located and offer extensive private interior maneuvering spaces, making them ideal for use as a logistics and last-mile distribution center.",
+    "home_p2": "<span class='font-bold'>The warehouses</span> are situated in the municipality of <span class='font-bold'>Galdakao</span>, Vizcaya, just 8 km from Bilbao. They are located at a key communications hub, less than 900 meters from the highway interchanges for the A-8 (Bilbao-Behobia), AP-68 (Vitoria, Burgos, Madrid), and N-634.",
+    "home_p3": "These warehouses boast significant <span class='font-bold'>commercial</span> potential. Positioned on a prime roadside location, they feature expansive storefronts and are just meters away from the future <span class='font-bold'>Bengoetxe metro stop</strong>.",
     
     "modulos_title": "Modules",
     "modulos_subtitle": "From 4.000 m² divisible into modules or offices.",

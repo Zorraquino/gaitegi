@@ -39,9 +39,9 @@
     "consultanos_href": "localizacion",
 
     "form_title": "¿Tienes alguna duda?",
-    "form_name_ph": "Nombre*",
-    "form_phone_ph": "Teléfono*",
-    "form_email_ph": "Email*",
+    "form_name_ph": "*Nombre",
+    "form_phone_ph": "*Teléfono",
+    "form_email_ph": "*Email",
     "form_comentarios_ph": "Comentarios",
     "form_rgpd": "*He leído y acepto la <a class='text-gaitegi-originals-blue font-bold' href='/es/politica-privacidad' target='_blank'>política de privacidad.</a>",
     "form_submit": "¡Consúltanos!",
