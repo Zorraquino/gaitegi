@@ -23,7 +23,7 @@
                 </div>
 
                 <div class="col-span-4 tablet:col-span-2 relative">
-                    <select wire:model="selection" class="w-full h-full py-6 px-4 text-body-s appearance-none bg-gaitegi-originals-white">
+                    <select wire:model="selection" class="gaitegi--select w-full h-full py-6 px-4 text-body-s bg-gaitegi-originals-white">
                         <option value="">{!! __('form_interesado') !!}</option>
                         @foreach(__('form_interesado_opciones') as $key => $item)
                             <option value="{!! $item['value'] !!}">{!! $item['opcion'] !!}</option>
