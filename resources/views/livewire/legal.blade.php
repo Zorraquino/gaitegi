@@ -4,7 +4,7 @@
             <h1 class="font-funnel text-title-m tablet:text-title-l desktop:text-title-xl !font-bold">{!! __('legal_title') !!}</h1>
         </div>
         <div id="information" class="grow p-4 tablet:p-8 mb-[96px] tablet:mb-[112px] desktop:mb-[96px]">
-            <div class="w-full max-w-[800px] text-justify">{!! __('legal_content') !!}</div>
+            <div class="w-full max-w-[1024px] tablet:text-justify">{!! __('legal_content') !!}</div>
         </div>
     </div>
 </div>

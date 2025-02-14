@@ -75,8 +75,8 @@
     "email.error": "El correo electrónico debe ser una dirección válida.",
     "message.error": "El mensaje es obligatorio.",
     "phone.error": "El teléfono es obligatorio.",
-    "selection.error": "Debe seleccionar una opción.",
-    "privacyPolicy.error": "Debe aceptar la política de privacidad.",
+    "selection.error": "Debes seleccionar una opción.",
+    "privacyPolicy.error": "Debes aceptar la política de privacidad.",
     
     "config_cookies": "Configurar Cookies",
     "aviso_legal": "Aviso legal",
@@ -174,7 +174,7 @@
 
     "localizacion_title": "Contáctanos",
     "localizacion_subtitle": "¿Tienes alguna duda? Escríbenos y te contestaremos en breve.",
-    "localizacion_oficinas": "Nuestras oficinas se encuentran en <strong>Rodríguez Arias K., 6, dpto 202c, Abando, 48008 Bilbao, Bizkaia</strong>.",
+    "localizacion_oficinas": "Nuestras oficinas:<br><strong>Rodríguez Arias K., 6, dpto 202c, Abando, 48008 Bilbao, Bizkaia</strong>.",
     "localizacion_naves": "Las naves se ubican en el término municipal de Galdakao, Vizcaya, a 8 Km de Bilbao y situadas en un nudo estratégico de comunicaciones al estar a menos de 900 m del enlace de autopistas A-8 (Bilbao – Behobia), AP-68 (Vitoria, Burgos, Madrid) y N-634.",
     "localizacion_encuentranos": "Encuéntranos",
 
