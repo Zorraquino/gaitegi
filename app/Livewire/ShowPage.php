@@ -10,6 +10,7 @@ class ShowPage extends Component
 {
     public $slug;
     public $locale;
+    public $langMenu = [];
 
     private $slugMaps = [
         'es' => [
@@ -17,7 +18,7 @@ class ShowPage extends Component
             'naves' => 'naves',
             'oficinas' => 'oficinas',
             'modulos' => 'modulos',
-            'localizacion' => 'localizacion',
+            'contacto' => 'localizacion',
             'aviso-legal' => 'legal',
             'politica-privacidad' => 'privacidad'
         ],
@@ -26,7 +27,7 @@ class ShowPage extends Component
             'nabeak' => 'naves',
             'bulegoak' => 'oficinas',
             'moduloak' => 'modulos',
-            'kokapena' => 'localizacion',
+            'harremanetarako' => 'localizacion',
             'lege-oharra' => 'legal',
             'pribatutasun-politika' => 'privacidad'
         ],
@@ -35,7 +36,7 @@ class ShowPage extends Component
             'warehouses' => 'naves',
             'offices' => 'oficinas',
             'modules' => 'modulos',
-            'location' => 'localizacion',
+            'contact' => 'localizacion',
             'legal-notice' => 'legal',
             'privacy-policy' => 'privacidad'
         ]
@@ -53,14 +54,32 @@ class ShowPage extends Component
 
     public function render()
     {
-        if (isset($this->slugMaps[$this->locale][$this->slug])) {
-            $this->slug = $this->slugMaps[$this->locale][$this->slug];
-        }
-        $view = 'livewire.' . $this->slug;
+        // Generar el menú de idiomas
+        $this->langMenu = [];
+        $currentSlug = $this->slug;
         
+        // Encontrar el slug base buscando en el mapa del idioma actual
+        $baseSlug = isset($this->slugMaps[$this->locale][$currentSlug]) 
+            ? $this->slugMaps[$this->locale][$currentSlug] 
+            : $currentSlug;
+            
+        // Generar los enlaces para cada idioma
+        foreach ($this->slugMaps as $lang => $slugMap) {
+            // Encontrar el slug correspondiente en cada idioma
+            $langSlug = array_search($baseSlug, $slugMap);
+            $this->langMenu[$lang] = $langSlug === false ? '' : $langSlug;
+        }
+
+        $view = 'livewire.' . $baseSlug;
+
+        // Compartir langMenu con la aplicación
+        app()->instance('langMenu', $this->langMenu);
+
         if (view()->exists($view)) {
-            app()->instance('pageName', $this->slug);
-            return view($view, ['pageName' => $this->slug]);
+            app()->instance('pageName', $baseSlug);
+            return view($view, [
+                'pageName' => $baseSlug
+            ]);
         }
         
         return view('livewire.404', ['pageName' => '404']);

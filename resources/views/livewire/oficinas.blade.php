@@ -11,7 +11,7 @@
                     <span class="col-span-4 flex gap-2"><span class="w-6">{!! file_get_contents('images/package.svg') !!}</span>{!! $item['text'] !!}</span>
                 @endforeach
             </div>
-             <div class="pt-8">
+             <div class="pt-8 hidden tablet:block">
                 <a href="{{ url('/') }}/{{app()->getLocale()}}/{{__('consultanos_href')}}" class="w-fit flex gap-4 font-funnel text-body-l bg-gaitegi-originals-red text-gaitegi-originals-white hover:bg-gaitegi-originals-red/75 items-center justify-center px-8 py-4">
                     {!! __('consultanos') !!}
                     {!! file_get_contents('images/mail.svg') !!}

@@ -4,25 +4,19 @@
             <h1 class="font-funnel text-title-m tablet:text-title-l desktop:text-title-xl !font-bold">{!! __('naves_title') !!}</h1>
             <span class="block text-body-l pt-4">{!! __('naves_subtitle') !!}</span>
         </div>
-        <div id="information" class="grow flex flex-col px-4 pb-10 pt-8 tablet:p-8 overflow-auto mb-0">
-            <div class="grid grid-cols-4 gap-x-6 gap-y-6 tablet:gap-y-6 mb-8">
+        <div id="information" class="flex flex-col px-4 pb-10 pt-8 tablet:p-8 overflow-auto mb-0">
+            <div class="grid grid-cols-6 gap-x-6 gap-y-6 tablet:gap-y-6">
                 @foreach(__('navesCaracteristicas') as $key => $item)
-                    <span class="col-span-4 tablet:col-span-2 flex gap-4 text-balance"><span class="w-6">{!! file_get_contents('images/warehouse.svg') !!}</span>{!! $item['text'] !!}</span>
+                    <span class="col-span-6 tablet:col-span-3 flex gap-4 text-balance pr-0 tablet:pr-4"><span class="w-6">{!! file_get_contents('images/warehouse.svg') !!}</span>{!! $item['text'] !!}</span>
                 @endforeach
             </div>
+        </div>
+        <div id="location" class="grow flex flex-col px-4 pb-10 pt-8 tablet:p-8 overflow-auto mb-0">
             <h3 class="font-funnel font-bold text-body-l">{!! __('navesLocalizacion_title') !!}</h3>
-            <div class="flex flex-col justify-start flex-wrap gap-2 pt-4">
-                <ul class="list-disc pl-4 flex flex-col gap-y-3">
+            <div class="grid grid-cols-4 gap-x-6 gap-y-6 mb-0 pt-8">
                 @foreach(__('navesLocalizacion') as $key => $item)
-                    <li>{!! $item['text'] !!}</li>
+                    <span class="col-span-4 flex gap-2 text-balance"><span class="w-6">{!! file_get_contents('images/package.svg') !!}</span>{!! $item['text'] !!}</span>
                 @endforeach
-                </ul>
-            </div>
-            <div class="pt-8">
-                <a href="{{ url('/') }}/{{app()->getLocale()}}/{{__('consultanos_href')}}" class="w-fit flex gap-4 font-funnel text-body-l bg-gaitegi-originals-red text-gaitegi-originals-white hover:bg-gaitegi-originals-red/75 items-center justify-center px-8 py-4">
-                    {!! __('consultanos') !!}
-                    {!! file_get_contents('images/mail.svg') !!}
-                </a>
             </div>
         </div>
 

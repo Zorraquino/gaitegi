@@ -19,6 +19,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        //
+        view()->composer('*', function ($view) {
+            $langMenu = app('langMenu') ?? [];
+            $view->with('langMenu', $langMenu);
+        });
     }
 }

@@ -6,12 +6,15 @@
 
     <div class="h-full flex flex-row items-center justify-center gap-4 pr-4 laptop:pr-0">
         <nav class="flex flex-row divide-x divide-gaitegi-originals-black">
-            <a class="px-2 leading-none {{ (request()->segment(1) === 'es') || (request()->segment(1) == '') ? 'font-bold' : '' }}" href="{{ url('/') }}/es/">ES</a>
-            <a class="px-2 leading-none {{ (request()->segment(1) === 'eu') ? 'font-bold' : '' }}" href="{{ url('/') }}/eu/">EU</a>
-            <a class="px-2 leading-none {{ (request()->segment(1) === 'en') ? 'font-bold' : '' }}" href="{{ url('/') }}/en/">EN</a>
+            <a class="px-2 leading-none {{ (request()->segment(1) === 'es') || (request()->segment(1) == '') ? 'font-bold' : '' }}" 
+                href="{{ url('/') }}/es/{{ app('langMenu')['es'] }}">ES</a>
+            <a class="px-2 leading-none {{ (request()->segment(1) === 'eu') ? 'font-bold' : '' }}" 
+                href="{{ url('/') }}/eu/{{ app('langMenu')['eu'] }}">EU</a>
+            <a class="px-2 leading-none {{ (request()->segment(1) === 'en') ? 'font-bold' : '' }}" 
+                href="{{ url('/') }}/en/{{ app('langMenu')['en'] }}">EN</a>
         </nav>
-        <a  href="tel:944790369" class="hidden laptop:flex gap-4 font-funnel text-body-xl bg-gaitegi-originals-red text-gaitegi-originals-white hover:bg-gaitegi-originals-red/75 cursor-pointer transition-all w-full h-full items-center justify-center px-16">
-            {!! __('llamanos') !!}
+        <a href="/{{ request()->segment(1) }}/{{ __('consultanos_href') }}" class="hidden laptop:flex gap-4 font-funnel text-body-xl bg-gaitegi-originals-red text-gaitegi-originals-white hover:bg-gaitegi-originals-red/75 cursor-pointer transition-all w-full h-full items-center justify-center px-16">
+            {!! __('consultanos') !!}
             {!! file_get_contents('images/phone.svg') !!}
         </a>
         <button id="toggleMenu" class="flex laptop:hidden p-2 border border-solid border-gaitegi-originals-black">
