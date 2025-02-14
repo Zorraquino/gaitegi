@@ -45,12 +45,7 @@ export function initCookieConsent() {
                             {
                                 title: 'Cookie Teknikoak',
                                 description: 'Cookie hauek beharrezkoak dira webgunea funtzionatzeko eta ezin dira gure sistemetan desaktibatu. Oro har, zure ekintzei erantzunez ezartzen dira, hala nola, pribatutasun-hobespenak ezartzea, saioa hastea edo formularioak betetzea. Zure nabigatzailea konfiguratu dezakezu cookie hauek blokeatzeko edo horien berri emateko, baina guneak ez du behar bezala funtzionatuko. Cookie hauek ez dute identifikazio-informaziorik gordetzen.',
-                                linkedCategory: 'necessary'
-                            },
-                            {
-                                title: 'Analitika',
-                                description: 'Cookie hauek erabiltzaileen portaera jarraitzeko eta aztertzeko aukera ematen digute, eta bereziki, bisitak eta trafiko iturriak zenbatzeko, gure gunea ebaluatu eta hobetzeko.',
-                                linkedCategory: 'analytics',
+                                linkedCategory: 'necessary',
                                 cookieTable: {
                                     headers: {
                                         name: "Izena",
@@ -79,6 +74,11 @@ export function initCookieConsent() {
                                         }
                                     ]
                                 }
+                            },
+                            {
+                                title: 'Analitika',
+                                description: 'Cookie hauek erabiltzaileen portaera jarraitzeko eta aztertzeko aukera ematen digute, eta bereziki, bisitak eta trafiko iturriak zenbatzeko, gure gunea ebaluatu eta hobetzeko.',
+                                linkedCategory: 'analytics',
                             }
                         ]
                     }
