@@ -40,8 +40,8 @@
                 </div>
 
                 <div class="col-span-4 tablet:col-span-2 relative flex flex-col !border-b-0 border-solid border-gaitegi-originals-black tablet:!border-b laptop:!border-b-0">
-                    <div class="flex items-center grow p-6">
-                        <input type="checkbox" wire:model="privacyPolicy" class="mr-2">
+                    <div class="flex items-start grow p-6">
+                        <input type="checkbox" wire:model="privacyPolicy" class="mt-1 mr-2">
                         <label for="privacyPolicy" class="font-funnel text-body-s">{!! __('form_rgpd') !!}</label>
                         @error('privacyPolicy') <span class="text-red-500 absolute text-[10px] top-[4px] left-[16px]">{!! __('privacyPolicy.error') !!}</span> @enderror
                     </div>
