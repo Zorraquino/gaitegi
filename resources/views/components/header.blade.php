@@ -13,7 +13,7 @@
             <a class="px-2 leading-none {{ (request()->segment(1) === 'en') ? 'font-bold' : '' }}" 
                 href="{{ url('/') }}/en/{{ app('langMenu')['en'] }}">EN</a>
         </nav>
-        <a href="/{{ request()->segment(1) }}/{{ __('consultanos_href') }}" class="hidden laptop:flex gap-4 font-funnel text-body-xl bg-gaitegi-originals-red text-gaitegi-originals-white hover:bg-gaitegi-originals-red/75 cursor-pointer transition-all w-full h-full items-center justify-center px-16">
+        <a href="/{{ request()->segment(1) ?? 'es' }}/{{ __('consultanos_href') }}" class="hidden laptop:flex gap-4 font-funnel text-body-xl bg-gaitegi-originals-red text-gaitegi-originals-white hover:bg-gaitegi-originals-red/75 cursor-pointer transition-all w-full h-full items-center justify-center px-16">
             {!! __('consultanos') !!}
             {!! file_get_contents('images/phone.svg') !!}
         </a>

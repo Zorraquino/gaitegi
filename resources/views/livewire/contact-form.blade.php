@@ -1,6 +1,6 @@
-<div id="contact" class="col-span-12 tablet:col-span-6 h-full laptop:max-h-[346px] border-b-0 tablet:border-b tablet:border-solid tablet:border-gaitegi-originals-black">
+<div id="contact" class="col-span-12 tablet:col-span-6 h-full laptop:max-h-[346px] border-b-0 tablet:border-b-0 tablet:border-solid tablet:border-gaitegi-originals-black laptop:border-b">
 
-    <form accept-language="{{ app()->getLocale() }}" wire:submit.prevent="submit" class="h-auto laptop:h-full pb-0 laptop:pb-0">
+    <form accept-language="{{ app()->getLocale() }}" wire:submit.prevent="submit" class="h-auto laptop:h-full pb-0 laptop:pb-0 laptop:mb-[96px]">
 
         <div class="relative h-full grid grid-cols-4 tablet:grid-cols-4 divide-y divide-gaitegi-originals-black">
             
@@ -34,12 +34,12 @@
             </div>
 
             <div class="grid grid-cols-subgrid col-span-4 divide-y tablet:divide-x tablet:divide-y-0 divide-gaitegi-originals-black">
-                <div class="col-span-4 tablet:col-span-2 relative !border-b-0 border-solid border-gaitegi-originals-black tablet:!border-b laptop:!border-b-0">
+                <div class="col-span-4 tablet:col-span-2 relative !border-b-0 border-solid border-gaitegi-originals-black tablet:border-b-0 laptop:!border-b-0">
                     <textarea wire:model="message" class="w-full h-full py-6 px-4 text-body-s resize-none" placeholder="{!! __('form_comentarios_ph') !!}"></textarea>
                     @error('message') <span class="text-red-500 absolute text-[10px] top-[4px] left-[16px]">{!! __('message.error') !!}</span> @enderror
                 </div>
 
-                <div class="col-span-4 tablet:col-span-2 relative flex flex-col !border-b-0 border-solid border-gaitegi-originals-black tablet:!border-b laptop:!border-b-0">
+                <div class="col-span-4 tablet:col-span-2 relative flex flex-col !border-b-0 border-solid border-gaitegi-originals-black tablet:border-b-0 laptop:!border-b-0">
                     <div class="flex items-start grow p-6">
                         <input type="checkbox" wire:model="privacyPolicy" class="mt-1 mr-2">
                         <label for="privacyPolicy" class="font-funnel text-body-s">{!! __('form_rgpd') !!}</label>
