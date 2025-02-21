@@ -7,8 +7,8 @@ const loader = new Loader({
     libraries: ['marker']
 });
 
-const centerOficinas = { lat: 43.23219238335117, lng: -2.8586940357359456 };
-const centerPabellones = { lat: 43.2620715694228, lng: -2.9348107579051543 };
+const centerPabellones = { lat: 43.23219238335117, lng: -2.8586940357359456 };
+const centerOficinas = { lat: 43.2620715694228, lng: -2.9348107579051543 };
 const mapElement = document.getElementById('map');
 let currentMap = null; // Referencia global al mapa
 let currentMarker = null; // Nueva referencia global al marcador
