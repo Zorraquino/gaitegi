@@ -173,9 +173,10 @@
 
     "localizacion_title": "Contact Us!",
     "localizacion_subtitle": "Any questions? Contact us and we will be in touch shortly.",
-    "localizacion_oficinas": "Our offices:<br><strong>Rodríguez Arias K., 6, dpto 202c, Abando, 48008 Bilbao, Biscay</strong>.",
+    "localizacion_oficinas_address": "Our offices:<br><strong>Rodríguez Arias K., 6, dpto 202c, Abando, 48008 Bilbao, Biscay</strong>.",
+    "localizacion_pabellones_address": "Our facilities:<br><strong>Ctra. Nacional 634, 48960 Galdakao, Biscay</strong>.",
     "localizacion_naves": "The warehouses are located in <strong>the municipality of Galdakao, Biscay, 8 km from Bilbao</strong>, in a strategic communications hub less than 900 meters from the A-8 (Bilbao – Behobia), AP-68 (Vitoria, Burgos, Madrid), and N-634 highway connections.",
-    "localizacion_encuentranos": "Our offices",
+    "localizacion_oficinas": "Our offices",
     "localizacion_pabellones": "Our facilities",
     "localizacion_abrir": "Open in Google Maps",
 

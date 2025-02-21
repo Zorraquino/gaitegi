@@ -57,6 +57,22 @@ export function initMap() {
                     }
                 }
             });
+
+            // Actualizar visibilidad de direcciones
+            const oficinasAddress = document.getElementById('oficinas_address');
+            const pabellonesAddress = document.getElementById('pabellones_address');
+            
+            if (activeId === 'oficinas_map') {
+                oficinasAddress?.classList.remove('hidden');
+                oficinasAddress?.classList.add('block');
+                pabellonesAddress?.classList.add('hidden');
+                pabellonesAddress?.classList.remove('block');
+            } else {
+                oficinasAddress?.classList.add('hidden');
+                oficinasAddress?.classList.remove('block');
+                pabellonesAddress?.classList.remove('hidden');
+                pabellonesAddress?.classList.add('block');
+            }
         };
 
         // Inicializar con la ubicación por defecto
