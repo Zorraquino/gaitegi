@@ -27,7 +27,7 @@
     <div class="col-span-12 laptop:col-span-6 h-[240px] tablet:h-full divide-y divide-gaitegi-originals-black order-1 laptop:order-2">
     
         <div id="images" class="w-full h-[240px] tablet:h-full z-0" styles="view-transition-name: image-container">
-            <video autoplay muted loop class="w-full h-full object-cover z-0" poster="{{ asset('images/home_cover.jpg') }}?v=2">
+            <video playsinline autoplay muted loop class="w-full h-full object-cover z-0" poster="{{ asset('images/home_cover.jpg') }}?v=2">
                 <source src="{{ asset('images/gaitegi_video_ubicacion.mp4') }}?v=2" type="video/mp4">
             </video>
         </div>
