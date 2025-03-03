@@ -42,7 +42,7 @@
     "form_name_ph": "*Izena",
     "form_phone_ph": "*Telefonoa",
     "form_email_ph": "*Emaila",
-    "form_comentarios_ph": "Irukinak",
+    "form_comentarios_ph": "Iruzkinak",
     "form_rgpd": "*Irakurri dut eta onartzen dut <a class='text-gaitegi-originals-blue font-bold' href='/eu/pribatutasun-politika' target='_blank'>pribatutasun-politika.</a>",
     "form_submit": "Kontsulta gaitzazu!",
     "form_success": "Eskaera bidali da arrakastaz. Jarri gurekin harremanetan.",
@@ -97,7 +97,7 @@
             "text": "N-634 errepideko lehen lerroan."
         },
         {
-            "text": "A-8/AP-8 eta AP-68 autobideen lotunetik 900 metrora."
+            "text": "A-8/AP-8 (Bilbao - Behobia) eta AP-68 (Vitoria, Burgos, Madril) autobideen lotunetik 900 metrora."
         },
         {
             "text": "Noranzko aldaketa 250m-ra, bi norabideetan."
@@ -118,7 +118,7 @@
             "text": "N-634 errepideko lehen lerroan."
         },
         {
-            "text": "A-8/AP-8 eta AP-68 autobideen lotunetik 900 metrora."
+            "text": "A-8/AP-8 (Bilbao - Behobia) eta AP-68 (Vitoria, Burgos, Madril) autobideen lotunetik 900 metrora."
         },
         {
             "text": "Noranzko aldaketa 250m-ra, bi norabideetan."
@@ -137,7 +137,7 @@
             "text": "Karga-unitatea eta ate sekzionala dituzten industria-nabeak."
         },
         {
-            "text": "Ate independienteak, biltegira zuzenean sartzeko."
+            "text": "Ate independenteak, biltegira zuzenean sartzeko."
         },
         {
             "text": "34 metrorainoko kamioientzako maniobra-hondartzak."
@@ -161,7 +161,7 @@
             "text": "N-634 errepideko lehen lerroan."
         },
         {
-            "text": "A-8/AP-8 eta AP-68 autobideen lotunetik 900 metrora."
+            "text": "A-8/AP-8 (Bilbao - Behobia) eta AP-68 (Vitoria, Burgos, Madril) autobideen lotunetik 900 metrora."
         },
         {
             "text": "Noranzko aldaketa 250m-ra, bi norabideetan."
@@ -173,8 +173,8 @@
 
     "localizacion_title": "Harremanetarako",
     "localizacion_subtitle": "Zalantzarik? Idatz iezaiguzu eta laster jarriko gara harremanetan zurekin.",
-    "localizacion_oficinas_address": "Gure bulegoak:<br><strong>Rodríguez Arias K., 6, dpto 202c, Abando, 48008 Bilbao, Bizkaia</strong>.",
-    "localizacion_pabellones_address": "Gure higiezinak:<br> <strong>N-634, 48960 Galdakao, Bizkaia</strong>.",
+    "localizacion_oficinas_address": "Gure bulegoak:<br><strong>Rodriguez Arias Kalea, 6, 202c dept, 48008 Bilbao, Bizkaia, Euskadi</strong>.",
+    "localizacion_pabellones_address": "Gure higiezinak:<br> <strong>N-634, 48960 Galdakao, Bizkaia, Euskadi</strong>.",
     "localizacion_naves": "Nabeak, Galdakaoko udalerrian, Bizkaian, Bilbotik 8 km-ra eta komunikazio-korapilo estrategiko batean kokatuta daude, A-8 (Bilbo - Behobia), AP-68 (Gasteiz, Burgos, Madril) eta N-634 autobideen lotunetik 900 metro baino gutxiagora.",
     "localizacion_oficinas": "Gure bulegoak",
     "localizacion_pabellones": "Gure higiezinak",

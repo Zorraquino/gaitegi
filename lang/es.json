@@ -98,7 +98,7 @@
             "text": "Primera línea de carretera N-634."
         },
         {
-            "text": "A 900 m enlace de autopista A-8/AP-8 y AP-68."
+            "text": "A 900 m enlace de autopista A-8/AP-8 (Bilbao - Behobia) y AP-68 (Vitoria, Burgos, Madrid)."
         },
         {
             "text": "Cambio de sentido a 250m en ambas direcciones."
@@ -119,7 +119,7 @@
             "text": "Primera línea de carretera N-634."
         },
         {
-            "text": "A 900 m enlace de autopista A-8/AP-8 y AP-68."
+            "text": "A 900 m enlace de autopista A-8/AP-8 (Bilbao - Behobia) y AP-68 (Vitoria, Burgos, Madrid)."
         },
         {
             "text": "Cambio de sentido a 250m en ambas direcciones."
@@ -162,7 +162,7 @@
             "text": "Primera línea de carretera N-634."
         },
         {
-            "text": "A 900 m del enlace de autopista A-8/AP-8 y AP-68."
+            "text": "A 900 m del enlace de autopista A-8/AP-8 (Bilbao - Behobia) y AP-68 (Vitoria, Burgos, Madrid)."
         },
         {
             "text": "Cambio de sentido a 250m en ambas direcciones."
@@ -174,8 +174,8 @@
 
     "localizacion_title": "Contáctanos",
     "localizacion_subtitle": "¿Tienes alguna duda? Escríbenos y te contestaremos en breve.",
-    "localizacion_oficinas_address": "Nuestras oficinas:<br><strong>Rodríguez Arias K., 6, dpto 202c, Abando, 48008 Bilbao, Bizkaia</strong>.",
-    "localizacion_pabellones_address": "Nuestras instalaciones:<br><strong>N-634, 48960 Galdakao, Bizkaia</strong>.",
+    "localizacion_oficinas_address": "Nuestras oficinas:<br><strong>Calle Rodríguez Arias, 6, dpto 202c, 48008 Bilbao, Vizcaya, Pais Vasco</strong>.",
+    "localizacion_pabellones_address": "Nuestras instalaciones:<br><strong>N-634, 48960 Galdakao, Vizcaya, País Vasco</strong>.",
     "localizacion_naves": "Las naves se ubican en el término municipal de Galdakao, Vizcaya, a 8 Km de Bilbao y situadas en un nudo estratégico de comunicaciones al estar a menos de 900 m del enlace de autopistas A-8 (Bilbao – Behobia), AP-68 (Vitoria, Burgos, Madrid) y N-634.",
     "localizacion_oficinas": "Nuestras oficinas",
     "localizacion_pabellones": "Nuestros inmuebles",
