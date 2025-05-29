@@ -12,11 +12,7 @@
         {
             "label": "Módulos",
             "slug": "modulos"
-        },
-        {
-            "label": "Contacto",
-            "slug": "contacto"
-        }
+        }        
     ],
 
     "inicio": "Alquiler de naves industriales",
@@ -29,14 +25,16 @@
     "legal": "Aviso Legal",
     "legal_route": "aviso-legal",
     "privacidad_route": "politica-privacidad",
-    "og_description": "Magníficas naves preparadas para uso como centro logístico y distribución capilar, ubicadas en una privilegiada situación y disponen de amplios espacios de maniobra interior privados.",
+    "localizacion": "Contacto",
+    "og_description": "Magníficas naves preparadas para uso como centro logístico y distribución capilar, ubicadas en una privilegiada situación y disponen de amplios espacios de maniobra interior privados.",
 
     "legal_title": "Aviso Legal",
     "privacidad_title": "Política de Privacidad",
     "cookies_title": "Política de Cookies",
 
     "llamanos": "Llámanos",
-    "consultanos": "¡Consúltanos!",
+    "consultanos": "Contáctanos!",
+    "contacto_movil": "Contacto",
     "consultanos_href": "contacto",
 
     "form_title": "¿Tienes alguna duda?",
@@ -92,19 +90,24 @@
     "modulos_p1": "Alquiler de oficinas y módulos en un edificio de <span class='font-bold'>más de 4.000m²</span> en cuatro plantas, divisibles tanto en módulos como en oficinas.",
     "modulosCaracteristicas": [
         {
-            "text": "Parking exclusivo de más de 2.300m²."
+            "text": "Parking exclusivo de más de 2.300m².",
+            "icon": "parking.png"
         },
         {
-            "text": "Primera línea de carretera N-634."
+            "text": "Primera línea de carretera N-634.",
+            "icon": "road.png"
         },
         {
-            "text": "A 900 m enlace de autopista A-8/AP-8 (Bilbao - Behobia) y AP-68 (Vitoria, Burgos, Madrid)."
+            "text": "A 900 m del enlace de autopista A-8/AP-8 (Bilbao - Behobia) y AP-68 (Vitoria, Burgos, Madrid).",
+            "icon": "highway.png"
         },
         {
-            "text": "Cambio de sentido a 250m en ambas direcciones."
+            "text": "Cambio de sentido a 250m en ambas direcciones.",
+            "icon": "u-turn.png"
         },
         {
-            "text": "A 8 min de Bilbao."
+            "text": "A 8 min de Bilbao.",
+            "icon": "clock.png"
         }
     ],
     
@@ -113,19 +116,24 @@
     "oficinas_p1": "Alquiler de oficinas y módulos en un edificio de <span class='font-bold'>más de 4.000m²</span> en cuatro plantas, divisibles tanto en módulos como en oficinas.",
     "oficinasCaracteristicas": [
         {
-            "text": "Parking exclusivo de más de 2.300m²."
+            "text": "Parking exclusivo de más de 2.300m².",
+            "icon": "parking.png"
         },
         {
-            "text": "Primera línea de carretera N-634."
+            "text": "Primera línea de carretera N-634.",
+            "icon": "road.png"
         },
         {
-            "text": "A 900 m enlace de autopista A-8/AP-8 (Bilbao - Behobia) y AP-68 (Vitoria, Burgos, Madrid)."
+            "text": "A 900 m del enlace de autopista A-8/AP-8 (Bilbao - Behobia) y AP-68 (Vitoria, Burgos, Madrid).",
+            "icon": "highway.png"
         },
         {
-            "text": "Cambio de sentido a 250m en ambas direcciones."
+            "text": "Cambio de sentido a 250m en ambas direcciones.",
+            "icon": "u-turn.png"
         },
         {
-            "text": "A 8 min de Bilbao."
+            "text": "A 8 min de Bilbao.",
+            "icon": "clock.png"
         }
     ],
 
@@ -135,40 +143,51 @@
     "naves_p2": "",
     "navesCaracteristicas": [
         {
-            "text": "Naves con unidades de carga dotados de puerta seccional."
+            "text": "Naves con unidades de carga dotados de puerta seccional.",
+            "icon": "warehouse.svg"
         },
         {
-            "text": "Con unidades de puertas preleva independientes para acceso directo al almacén."
+            "text": "Con unidades de puertas preleva independientes para acceso directo al almacén.",
+            "icon": "garage.png"
         },
         {
-            "text": "Playas de maniobra para camiones de hasta 34 metros."
+            "text": "Playas de maniobra para camiones de hasta 34 metros.",
+            "icon": "truck.png"
         },
         {
-            "text": "Solera interior y exterior de hormigón armado."
+            "text": "Solera interior y exterior de hormigón armado.",
+            "icon": "layout.png"
         },
         {
-            "text": "Vallado perimetral con puerta de acceso independiente."
+            "text": "Vallado perimetral con puerta de acceso independiente.",
+            "icon": "door.png"
         },
         {
-            "text": "Centros de transformación propios."
+            "text": "Centros de transformación propios.",
+            "icon": "power.png"
         }
     ],
     "navesLocalizacion_title": "Localización",
     "navesLocalizacion": [
         {
-            "text": "Parking exclusivo de más de 2.300m²."
+            "text": "Parking exclusivo de más de 2.300m².",
+            "icon": "parking.png"
         },
         {
-            "text": "Primera línea de carretera N-634."
+            "text": "Primera línea de carretera N-634.",
+            "icon": "road.png"
         },
         {
-            "text": "A 900 m del enlace de autopista A-8/AP-8 (Bilbao - Behobia) y AP-68 (Vitoria, Burgos, Madrid)."
+            "text": "A 900 m del enlace de autopista A-8/AP-8 (Bilbao - Behobia) y AP-68 (Vitoria, Burgos, Madrid).",
+            "icon": "highway.png"
         },
         {
-            "text": "Cambio de sentido a 250m en ambas direcciones."
+            "text": "Cambio de sentido a 250m en ambas direcciones.",
+            "icon": "u-turn.png"
         },
         {
-            "text": "A 8 min de Bilbao."
+            "text": "A 8 min de Bilbao.",
+            "icon": "clock.png"
         }
     ],
 

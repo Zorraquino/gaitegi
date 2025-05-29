@@ -11,10 +11,6 @@
         {
             "label": "Moduloak",
             "slug": "moduloak"
-        },
-        {
-            "label": "Harremanetarako",
-            "slug": "harremanetarako"
         }
     ],
 
@@ -28,6 +24,7 @@
     "legal": "Lege Oharra",
     "legal_route": "lege-oharra",
     "privacidad_route": "pribatutasun-politika",
+    "localizacion": "Harremanetarako",
     "og_description": "Industria-nabe bikainak, erabilera logistikorako eta hiriko ile-banaketarako prestatuak. Kokapen pribilegiatuan daude, eta barruko maniobra-espazio pribatu zabalak dituzte.",
 
     "legal_title": "Lege Oharra",
@@ -36,6 +33,7 @@
 
     "llamanos": "Deitu",
     "consultanos": "Kontsulta gaitzazu!",
+    "contacto_movil": "Harremanetarako",
     "consultanos_href": "harremanetarako",
 
     "form_title": "¿Tienes alguna duda?",
@@ -91,19 +89,24 @@
     "modulos_p1": "<strong>4.000 metro koadro baino gehiagoko</strong> erakin batean ditugu bulegoak eta moduluak alokatzeko, lau solairutan. Bulego eta moduluetan bana daitezke.",
     "modulosCaracteristicas": [
         {
-            "text": "2.300m² baino gehiagoko aparkaleku esklusiboa."
+            "text": "2.300m² baino gehiagoko aparkaleku esklusiboa.",
+            "icon": "parking.png"
         },
         {
-            "text": "N-634 errepideko lehen lerroan."
+            "text": "N-634 errepideko lehen lerroan.",
+            "icon": "road.png"
         },
         {
-            "text": "A-8/AP-8 (Bilbao - Behobia) eta AP-68 (Vitoria, Burgos, Madril) autobideen lotunetik 900 metrora."
+            "text": "A-8/AP-8 (Bilbao - Behobia) eta AP-68 (Vitoria, Burgos, Madril) autobideen lotunetik 900 metrora.",
+            "icon": "highway.png"
         },
         {
-            "text": "Noranzko aldaketa 250m-ra, bi norabideetan."
+            "text": "Noranzko aldaketa 250m-ra, bi norabideetan.",
+            "icon": "u-turn.png"
         },
         {
-            "text": "Bilbotik 8 minutura."
+            "text": "Bilbotik 8 minutura.",
+            "icon": "clock.png"
         }
     ],
     
@@ -112,19 +115,24 @@
     "oficinas_p1": "<span class='font-bold'>4.000 metro koadro baino gehiagoko</span> erakin batean ditugu bulegoak eta moduluak alokatzeko, lau solairutan. Bulego eta moduluetan bana daitezke.",
     "oficinasCaracteristicas": [
         {
-            "text": "2.300m² baino gehiagoko aparkaleku esklusiboa."
+            "text": "2.300m² baino gehiagoko aparkaleku esklusiboa.",
+            "icon": "parking.png"
         },
         {
-            "text": "N-634 errepideko lehen lerroan."
+            "text": "N-634 errepideko lehen lerroan.",
+            "icon": "road.png"
         },
         {
-            "text": "A-8/AP-8 (Bilbao - Behobia) eta AP-68 (Vitoria, Burgos, Madril) autobideen lotunetik 900 metrora."
+            "text": "A-8/AP-8 (Bilbao - Behobia) eta AP-68 (Vitoria, Burgos, Madril) autobideen lotunetik 900 metrora.",
+            "icon": "highway.png"
         },
         {
-            "text": "Noranzko aldaketa 250m-ra, bi norabideetan."
+            "text": "Noranzko aldaketa 250m-ra, bi norabideetan.",
+            "icon": "u-turn.png"
         },
         {
-            "text": "Bilbotik 8 minutura."
+            "text": "Bilbotik 8 minutura.",
+            "icon": "clock.png"
         }
     ],
 
@@ -134,40 +142,51 @@
     "naves_p2": "",
     "navesCaracteristicas": [
         {
-            "text": "Karga-unitatea eta ate sekzionala dituzten industria-nabeak."
+            "text": "Karga-unitatea eta ate sekzionala dituzten industria-nabeak.",
+            "icon": "warehouse.svg"
         },
         {
-            "text": "Ate independenteak, biltegira zuzenean sartzeko."
+            "text": "Ate independenteak, biltegira zuzenean sartzeko.",
+            "icon": "garage.png"
         },
         {
-            "text": "34 metrorainoko kamioientzako maniobra-hondartzak."
+            "text": "34 metrorainoko kamioientzako maniobra-hondartzak.",
+            "icon": "truck.png"
         },
         {
-            "text": "Hormigoi armatuzko barruko eta kanpoko zolata."
+            "text": "Hormigoi armatuzko barruko eta kanpoko zolata.",
+            "icon": "layout.png"
         },
         {
-            "text": "Perimetroko hesia, sarbide independenteko atearekin."
+            "text": "Perimetroko hesia, sarbide independenteko atearekin.",
+            "icon": "door.png"
         },
         {
-            "text": "Argindar transformazio-zentro propioak."
+            "text": "Argindar transformazio-zentro propioak.",
+            "icon": "power.png"
         }
     ],
     "navesLocalizacion_title": "Kokapena",
     "navesLocalizacion": [
         {
-            "text": "2.300m² baino gehiagoko aparkaleku esklusiboa."
+            "text": "2.300m² baino gehiagoko aparkaleku esklusiboa.",
+            "icon": "parking.png"
         },
         {
-            "text": "N-634 errepideko lehen lerroan."
+            "text": "N-634 errepideko lehen lerroan.",
+            "icon": "road.png"
         },
         {
-            "text": "A-8/AP-8 (Bilbao - Behobia) eta AP-68 (Vitoria, Burgos, Madril) autobideen lotunetik 900 metrora."
+            "text": "A-8/AP-8 (Bilbao - Behobia) eta AP-68 (Vitoria, Burgos, Madril) autobideen lotunetik 900 metrora.",
+            "icon": "highway.png"
         },
         {
-            "text": "Noranzko aldaketa 250m-ra, bi norabideetan."
+            "text": "Noranzko aldaketa 250m-ra, bi norabideetan.",
+            "icon": "u-turn.png"
         },
         {
-            "text": "Bilbotik 8 minutura."
+            "text": "Bilbotik 8 minutura.",
+            "icon": "clock.png"
         }
     ],
 
