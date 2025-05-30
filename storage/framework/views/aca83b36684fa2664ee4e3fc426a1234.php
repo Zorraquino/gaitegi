@@ -1,0 +1,39 @@
+<div class="h-full tablet:h-full laptop:h-[calc(100%_+_96px)] grid grid-cols-12">
+    <div class="col-span-12 laptop:col-span-6 flex flex-col divide-y divide-gaitegi-originals-black tablet:border-b-[0.5px] laptop:border-r-[0.5px] border-solid border-gaitegi-originals-black order-2 laptop:order-2">
+        <div id="title" class="px-4 pb-10 pt-8 tablet:p-8">
+            <h1 class="font-funnel text-title-m tablet:text-title-l desktop:text-title-xl !font-bold"><?php echo __('home_title'); ?></h1>
+            <span class="block text-body-l pt-4"><?php echo __('home_subtitle'); ?></span>
+            <div class="flex flex-wrap justify-start gap-4 laptop:gap-8 pt-4 laptop:pt-8">
+                <a href="/<?php echo e(app()->getLocale()); ?>/<?php echo __('naves_route'); ?>" 
+                   class="font-funnel text-body-m text-current text-center flex items-center justify-center py-4 px-8 border border-solid border-gaitegi-originals-black hover:bg-gaitegi-originals-black hover:text-gaitegi-originals-white transition-all">
+                    <?php echo e(__('naves')); ?>
+
+                </a>
+                <a href="/<?php echo e(app()->getLocale()); ?>/<?php echo e(__('oficinas_route')); ?>" 
+                   class="font-funnel text-body-m text-current text-center flex items-center justify-center py-4 px-8 border border-solid border-gaitegi-originals-black hover:bg-gaitegi-originals-black hover:text-gaitegi-originals-white transition-all">
+                    <?php echo e(__('oficinas')); ?>
+
+                </a>
+                <a href="/<?php echo e(app()->getLocale()); ?>/<?php echo e(__('modulos_route')); ?>" 
+                   class="font-funnel text-body-m text-current text-center flex items-center justify-center py-4 px-8 border border-solid border-gaitegi-originals-black hover:bg-gaitegi-originals-black hover:text-gaitegi-originals-white transition-all">
+                    <?php echo e(__('modulos')); ?>
+
+                </a>
+            </div>
+        </div>
+        <div id="information" class="grow flex flex-col px-4 pb-10 pt-8 tablet:p-8 overflow-auto mb-0">
+            <p class="pb-4 tablet:pb-8 font-light"><?php echo __('home_p1'); ?></p>
+            <p class="pb-4 tablet:pb-8 font-light"><?php echo __('home_p2'); ?></p>
+            <p class="font-light"><?php echo __('home_p3'); ?></p>
+        </div>
+    </div>
+    <div class="col-span-12 laptop:col-span-6 h-[240px] tablet:h-full divide-y divide-gaitegi-originals-black order-1 laptop:order-2">
+    
+        <div id="images" class="w-full h-[240px] tablet:h-full z-0" styles="view-transition-name: image-container">
+            <video playsinline autoplay muted loop class="w-full h-full object-cover z-0" poster="<?php echo e(asset('images/home_cover.jpg')); ?>?v=2">
+                <source src="<?php echo e(asset('images/gaitegi_video_ubicacion.mp4')); ?>?v=2" type="video/mp4">
+            </video>
+        </div>
+
+    </div>
+</div><?php /**PATH /Users/g.alava/Herd/gaitegi/resources/views/livewire/inicio.blade.php ENDPATH**/ ?>
